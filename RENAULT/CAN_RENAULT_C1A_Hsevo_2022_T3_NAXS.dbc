@@ -1,0 +1,1899 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ACU ADAS ATCU ATCU_HEVC AVM BCM CDM EBA ECM_HEVC EPS FWS GWBridge HEVC IDMBridge METER STRG SWA USM VDC
+
+
+BO_ 1332 ACU_A101_FD_CH2: 12 IDMBridge
+ SG_ AIRBAGMalfunction : 40|1@0+ (1,0) [0|1] ""  VDC
+ SG_ CRC_ACU_A101 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ACU_A101 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_ACU_A101 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_ACU_A101 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+
+BO_ 32 ACU_A102C_FD_CH2: 12 ACU
+ SG_ AirbagCrashOrder_v3 : 37|6@0+ (1,0) [0|63] ""  VDC
+ SG_ Clock_ACU_A102_2 : 39|2@0+ (1,0) [0|3] ""  VDC
+ SG_ DLC_ACU_A102 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_ACU_A102 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+
+BO_ 464 ADAS_A127: 7 IDMBridge
+ SG_ ADmodeStatus_RD : 11|3@0+ (1,0) [0|7] ""  VDC
+ SG_ CRC_ADAS_A127 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ADAS_A127 : 15|4@0+ (1,0) [0|15] ""  VDC
+
+BO_ 664 ADAS_A12C_FD_CH2: 8 ADAS
+ SG_ CRC_ADAS_A122_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ADAS_A122_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_ADAS_A122_2 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ HapticBraking_Level_2 : 43|3@0+ (1,0) [0|7] ""  VDC
+ SG_ HapticBraking_Request_2 : 40|1@0+ (1,0) [0|1] ""  VDC
+ SG_ Header_ADAS_A122_2 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+
+BO_ 974 ADAS_A147: 7 IDMBridge
+ SG_ CRC_ADAS_A147 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ADAS_A147 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ ParkingBrakeBindingRequest_RD : 11|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 349 ADAS_A160_FD_CH2: 4 ADAS
+ SG_ AEB_BrakeWheelTorqueOrder3 : 11|3@0+ (1,0) [0|7] ""  VDC
+ SG_ AEB_BrakeWheelTorqueRequest3 : 8|15@0+ (1,0) [0|20000] "Nm"  VDC
+ SG_ CRC_ADAS_A160_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ADAS_A160_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+
+BO_ 159 ADAS_A4: 5 IDMBridge
+ SG_ AEB_BrakeTorqueGain2 : 39|5@0+ (0.05,1) [1|31] ""  VDC
+ SG_ AEB_BrakeTorqueGainOrder2 : 34|2@0+ (1,0) [0|3] ""  VDC
+ SG_ AEB_BrakeWheelTorqueOrder2 : 11|3@0+ (1,0) [0|7] ""  VDC
+ SG_ AEB_BrakeWheelTorqueRequest2 : 23|15@0+ (1,0) [0|20000] "Nm"  VDC
+ SG_ CRC_ADAS_A4 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ADAS_A4 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ HBAThresholdRequest2 : 8|1@0+ (1,0) [0|1] ""  VDC
+ SG_ HydraulicPreFillRequest2 : 32|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 286 ATCU_A107_FD_CH2: 3 ATCU
+ SG_ TorqueConverterState : 22|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 303 ATCU_A108C_FD_CH2: 12 ATCU_HEVC
+ SG_ CRC_ATCU_A108_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ATCU_A108_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_ATCU_A108_2 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ GearLeverPosition_v2_2 : 52|4@0+ (1,0) [0|15] ""  VDC
+ SG_ Header_ATCU_A108_2 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ InputShaftRevolution_2 : 48|16@0+ (1,0) [0|65534] "rpm"  VDC
+ SG_ OutputShaftRevolution_2 : 64|16@0+ (1,0) [0|65534] "rpm"  VDC
+
+BO_ 1100 ATCU_A110C_FD_CH2: 12 ATCU
+ SG_ AT_ParkPositionCommandState_2 : 52|2@0+ (1,0) [0|3] ""  VDC
+ SG_ CRC_ATCU_A110_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ATCU_A110_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_ATCU_A110_2 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_ATCU_A110_2 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ RST_LaunchControlReady_2 : 43|2@0+ (1,0) [0|3] ""  VDC
+ SG_ TransmRangeEngaged_Current_2 : 56|4@0+ (1,0) [0|15] ""  VDC
+ SG_ TransmRangeEngaged_Target_2 : 68|4@0+ (1,0) [0|15] ""  VDC
+
+BO_ 336 AVM_A122_FD_CH2: 7 AVM
+ SG_ CRC_AVM_A122_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_AVM_A122_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ SubAD_AEB_BrakeWheelTorqueOrder : 11|3@0+ (1,0) [0|7] ""  VDC
+ SG_ SubAD_AEB_BrakeWheelTorqueReq : 23|15@0+ (1,0) [0|20000] "Nm"  VDC
+
+BO_ 1506 BCM_A101: 8 BCM
+ SG_ HDC_Activation : 15|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1143 BCM_A110: 8 BCM
+ SG_ CRC_BCM_A110 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_BCM_A110 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DriverDoorState : 55|2@0+ (1,0) [0|3] ""  VDC
+ SG_ DriverSeatBeltFailureState : 27|2@0+ (1,0) [0|3] ""  VDC
+ SG_ DriverStopRequestWhileBattOff : 21|3@0+ (1,0) [0|7] ""  VDC
+ SG_ PassengerDoorState : 61|2@0+ (1,0) [0|3] ""  VDC
+ SG_ StartingMode_BCM : 33|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1145 BCM_A112: 8 BCM
+ SG_ ProbableCustomerFeedBackNeed : 41|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 1146 BCM_A113: 8 BCM
+ SG_ BrakeInfoStatus : 26|3@0+ (1,0) [0|7] ""  VDC
+ SG_ CRC_BCM_A113 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_BCM_A113 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ ClutchSwitchMaximumTravel : 63|2@0+ (1,0) [0|3] ""  VDC
+ SG_ ClutchSwitchMinimumTravel : 17|2@0+ (1,0) [0|3] ""  VDC
+ SG_ DeliveryModeInformation_v2 : 28|2@0+ (1,0) [0|3] ""  VDC
+ SG_ DriveModeRequest : 31|3@0+ (1,0) [0|7] ""  VDC
+ SG_ DriverDoorStatusSupposedFailure : 57|1@0+ (1,0) [0|1] ""  VDC
+ SG_ DriverSafetyBeltBuckleState : 11|2@0+ (1,0) [0|3] ""  VDC
+ SG_ EngineStopDriverRequestValid : 58|1@0+ (1,0) [0|1] ""  VDC
+ SG_ EngineStopDriverRequested : 9|1@0+ (1,0) [0|1] ""  VDC
+ SG_ GADE_v2 : 39|3@0+ (1,0) [0|7] ""  VDC
+ SG_ TrailerPresence : 44|1@0+ (1,0) [0|1] ""  VDC
+ SG_ VehicleStates : 23|4@0+ (1,0) [0|15] ""  VDC
+
+BO_ 944 BCM_A117: 3 BCM
+ SG_ CRC_BCM_A117 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_BCM_A117 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ RPES_Status : 23|3@0+ (1,0) [0|7] ""  VDC
+
+BO_ 1315 BCM_A8: 3 BCM
+ SG_ AbsoluteTimeSince1rstIgnition : 7|24@0+ (1,0) [0|16770000] "min"  VDC
+
+BO_ 367 CDM_A101_FD_CH2: 8 CDM
+ SG_ CRC_CDM_A101_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_CDM_A101_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ Global_ADmodeStatus_2 : 58|3@0+ (1,0) [0|7] ""  VDC
+ SG_ PathChangeRequest_2 : 24|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 1518 CDM_A103_FD_CH2: 2 CDM
+ SG_ MultiDriveMode_VDC_v2_2 : 3|4@0+ (1,0) [0|7] ""  VDC
+
+BO_ 135 CDM_A110_FD_CH2: 8 CDM
+ SG_ BSB_BrakeTorqueRequest_2 : 55|13@0+ (1,0) [0|8191] "Nm"  VDC
+ SG_ BrakeLampCancelRequest_2 : 41|1@0+ (1,0) [0|1] ""  VDC
+ SG_ BrakeLimitationInhibitRequest_2 : 40|1@0+ (1,0) [0|1] ""  VDC
+ SG_ CRC_CDM_A110_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_CDM_A110_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ EPKB_Request_ByCDM : 57|2@0+ (1,0) [0|3] "Nm"  VDC
+ SG_ GlobalBrakeTorqueOrder_2 : 9|2@0+ (1,0) [0|3] ""  VDC
+ SG_ GlobalBrakeTorqueRequest_2 : 39|14@0+ (2,0) [0|20000] "Nm"  VDC
+ SG_ GlobalYawMomentOrder_2 : 25|1@0+ (1,0) [0|1] ""  VDC
+ SG_ GlobalYawMomentRequest_2 : 23|14@0+ (0.5,-4000) [-4000|4000] "Nm"  VDC
+ SG_ IDM_StandStillRequest_2 : 11|2@0+ (1,0) [0|3] ""  VDC
+ SG_ ParkingBrakeBindingRequest_2 : 24|1@0+ (1,0) [0|1] ""  VDC
+ SG_ ParkingBrakeReleaseRequest_2 : 58|1@0+ (1,0) [0|1] "Nm"  VDC
+
+BO_ 1116 CDM_A116_FD_CH2: 8 CDM
+ SG_ CDM_TJPfailure : 28|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 576 CDM_A117_FD_CH2: 7 CDM
+ SG_ CDM_FaultType : 18|1@0+ (1,0) [0|1] ""  VDC
+ SG_ CRC_CDM_A117_2 : 55|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_CDM_A117_2 : 45|4@0+ (1,0) [0|15] ""  VDC
+ SG_ SSA_SwitchState : 40|1@0+ (1,0) [0|1] ""  VDC
+ SG_ ePedal_SSAbrakeWheelTorqueReq : 39|8@0+ (15,0) [0|3810] "Nm"  VDC
+ SG_ ePedal_StandStillRequest : 41|1@0+ (1,0) [0|1] ""  VDC
+ SG_ ePedal_StopLampRequest : 47|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 1293 CDM_A129_FD_CH2: 1 CDM
+ SG_ RST_MultiDriveBrakePedalFeel : 3|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 507 CDM_A131_FD: 3 CDM
+ SG_ BrakeTorqueRate : 23|7@0+ (1,0) [0|100] ""  VDC
+ SG_ CRC_CDM_A131 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_CDM_A131 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ Global_StandStillRequest_ByCDM : 11|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 114 EBA_A101: 7 EBA
+ SG_ BrakePedalPositionDistance : 27|12@0+ (0.015625,-5) [-5|47] "mm"  VDC
+ SG_ CRC_EBA_A101 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_EBA_A101 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ EBA_BrakePedalApplied : 9|2@0+ (1,0) [0|3] ""  VDC
+ SG_ EBA_OutputRodActuatorPosition : 47|12@0+ (0.015625,-5) [-5|47] "mm"  VDC
+ SG_ ExternalBrakeRequestPriority : 51|1@0+ (1,0) [0|1] ""  VDC
+ SG_ ExternalBrakeStatus : 11|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 526 EBA_A102_FD_CH2: 5 EBA
+ SG_ CRC_EBA_A102_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_EBA_A102_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ EBA_CapacityPressureCompValue : 23|8@0+ (0.05,0) [0|12.5] "MPa"  VDC
+ SG_ EBA_DiagActive : 8|1@0+ (1,0) [0|1] ""  VDC
+ SG_ EBA_PressureRunOut_2 : 31|8@0+ (0.1,0) [0|25] "MPa"  VDC
+ SG_ HBCrequest : 39|1@0+ (1,0) [0|1] ""  VDC
+ SG_ RearPressureReductionStatus : 11|3@0+ (1,0) [0|7] ""  VDC
+
+BO_ 366 EBA_A109: 6 EBA
+ SG_ ActuatorCircuitStatus : 11|1@0+ (1,0) [0|1] ""  VDC
+ SG_ CRC_EBA_A109 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_EBA_A109 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DriverTargetBrakingForce : 25|14@0+ (8,0) [0|130000] "N"  VDC
+ SG_ DriverTargetBrakingInfo : 9|2@0+ (1,0) [0|3] ""  VDC
+ SG_ DriverTargetBrakingStatus : 23|1@0+ (1,0) [0|1] ""  VDC
+ SG_ LongitudinalControlForce_EBA : 22|13@0+ (8,0) [0|65000] "N"  VDC
+ SG_ PotentialReductionPressureStatus : 10|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 939 EBA_A2: 4 EBA
+ SG_ CRC_EBA_A2 : 15|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_EBA_A2 : 23|4@0+ (1,0) [0|15] ""  VDC
+ SG_ EBA_MajorFailure : 18|1@0+ (1,0) [0|1] ""  VDC
+ SG_ EBA_MinorFailure : 0|1@0+ (1,0) [0|1] ""  VDC
+ SG_ HBCrequest_RCY : 19|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 462 EBA_N101_FD_CH2: 7 EBA
+ SG_ BrakePedalPositionDistance_AD2 : 27|12@0+ (0.015625,-5) [-5|47] "mm"  VDC
+ SG_ BrakePedalPosition_AD2 : 23|12@0+ (0.03125,0) [0|100] "pc"  VDC
+ SG_ CRC_EBA_N101_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_EBA_N101_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ EBA_BrakePedalApplied_AD2 : 9|2@0+ (1,0) [0|3] ""  VDC
+ SG_ EBA_OutputRodActuatorPosition_AD : 47|12@0+ (0.015625,-5) [-5|47] "mm"  VDC
+ SG_ ExternalBrakeRequestPriority_AD2 : 51|1@0+ (1,0) [0|1] ""  VDC
+ SG_ ExternalBrakeStatus_AD2 : 11|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1119 ECM_A108C_FD_CH2: 8 ECM_HEVC
+ SG_ CRC_ECM_A108_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ECM_A108_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_ECM_A108_2 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ EngineCoolantTemp_2 : 55|8@0+ (1,-40) [-40|214] ""  VDC
+ SG_ Header_ECM_A108 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ IdleStopBrakeHoldFunctionReq_2 : 62|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 116 ECM_A110C_FD_CH2: 12 ECM_HEVC
+ SG_ CRC_ECM_A110_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ECM_A110_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ ClutchPositionSensor_2 : 70|7@0+ (1,0) [0|100] ""  VDC
+ SG_ DLC_ECM_A110 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_ECM_A110 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ PowerTrainSetPoint_2 : 43|10@0+ (0.125,0) [0|125] "%"  VDC
+ SG_ RawSensor_2 : 49|10@0+ (0.125,0) [0|125] "%"  VDC
+ SG_ RequestedWheelTorqueAfterProc_2 : 73|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+ SG_ StopAutoPhase_2 : 79|3@0+ (1,0) [0|7] ""  VDC
+ SG_ TorqueRequestStatus_2 : 75|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 136 ECM_A111_FD_CH2: 8 ECM_HEVC
+ SG_ ASR_MSRAcknowledgement_2 : 45|1@0+ (1,0) [0|1] ""  VDC
+ SG_ ECM_SailingRequest_2 : 36|4@0+ (1,0) [0|15] ""  VDC
+
+BO_ 117 ECM_A112C_FD_CH2: 12 ECM_HEVC
+ SG_ CRC_ECM_A112_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ECM_A112_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_ECM_A112 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ ECM_EstimatedPWTWheelTorque_2 : 43|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+ SG_ EngineRPM_2 : 71|16@0+ (0.125,0) [0|8191.75] "rpm"  VDC
+ SG_ EngineStopRequestOrigin_2 : 60|3@0+ (1,0) [0|7] ""  VDC
+ SG_ Header_ECM_A112 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ MeanEffectiveTorque_2 : 87|12@0+ (0.5,-400) [-400|1647] "Nm"  VDC
+ SG_ PowerTrainStatus_2 : 57|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1137 ECM_A114: 8 ECM_HEVC
+ SG_ CruiseControlStatus : 31|3@0+ (1,0) [0|7] ""  VDC
+ SG_ Maintenance_Mode_Status : 25|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1139 ECM_A117: 6 ECM_HEVC
+ SG_ AcceleratorPedalPositionD : 39|8@0+ (0.392156862745098,0) [0|100] "%"  VDC
+ SG_ AtmoPressure : 7|10@0+ (0.1,10) [10|110] "%"  VDC
+ SG_ Rr_TransmRangeEngaged_Current : 26|2@0+ (1,10) [0|3] "%"  VDC
+ SG_ Rr_TransmRangeEngaged_Target : 47|2@0+ (1,0) [0|3] "%"  VDC
+
+BO_ 430 ECM_A130C_FD: 6 CDM
+ SG_ ASR_MSRAcknowledgement_SF : 43|1@0+ (1,0) [0|1] ""  VDC
+ SG_ CRC_ECM_A130 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_ECM_A130 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_ECM_A130 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_ECM_A130 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+
+BO_ 747 EDL_A101: 2 CDM
+ SG_ DiffLockControllerFailure : 1|1@0+ (1,0) [0|1] ""  VDC
+ SG_ DiffLockOperatingFlag : 0|1@0+ (1,0) [0|1] ""  VDC
+ SG_ DiffLockSwitching_EDL : 15|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 940 EPKB_A101_FD_CH2: 4 VDC
+ SG_ APB_BrakePedalRequestDisplay_2 : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CRC_EPKB_A101 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_EPKB_A101 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DynamicBrakingDisplay_2 : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EPB_BindingStatusDisplay_2 : 23|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ EPB_MalfunctionDisplay_2 : 20|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ EPB_NotTightenedWarning_2 : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EPB_SwitchState_2 : 30|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ EPB_TightenRequestUnavailable_2 : 28|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ NotImmobilizedVehicleWarning_2 : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TakeOffInhibitionWarning_2 : 25|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 732 EPKB_A102: 2 VDC
+ SG_ CRC_EPKB_A102 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_EPKB_A102 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ParkingBrakeBindingStatus_RD : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 604 EPKB_A1_FD_CH2: 4 VDC
+ SG_ CRC_EPKB_A1 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_EPKB_A1 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ParkingBrakeBindingStatus_2 : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ParkingBrakeMalfunctionStatus_2 : 23|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ParkingBrakeRequestInProgress_2 : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 321 EPS_A102_FD_CH2: 8 EPS
+ SG_ CRC_EPS_A102_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_EPS_A102_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ EPS_AngleSensor : 23|18@0+ (0.01,-1310) [-1310|1310] "degree"  VDC
+
+BO_ 569 FWD_A101_FD_CH2: 6 GWBridge
+ SG_ EstimatedFinalClutchTorque_2 : 23|8@0+ (10,0) [0|2550] "Nm"  VDC
+
+BO_ 545 FWD_A103_FD_CH2: 4 CDM
+ SG_ ETSMalfunction_2 : 8|1@0+ (1,0) [0|1] ""  VDC
+ SG_ ETS_InternalOperationMode : 23|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 943 FWD_M101_FD_CH2: 3 GWBridge
+ SG_ CRC_FWD_M101_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_FWD_M101_2 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ ETCModeCustomerRequest_2 : 23|3@0+ (1,0) [0|7] "deg"  VDC
+ SG_ ETS_RearDiffLockMalfunction_2 : 8|1@0+ (1,0) [0|1] "deg"  VDC
+ SG_ ETS_RearDiffLockStatus_2 : 10|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 373 FWS_A101_FD_CH2: 4 FWS
+ SG_ CRC_FWS_A101_2F_2 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_FWS_A101_2 : 11|4@0+ (1,0) [0|15] ""  VDC
+ SG_ FWS_Status_2 : 15|3@0+ (1,0) [0|3] ""  VDC
+ SG_ WS_AnglePosition_2 : 23|10@0+ (0.01,-5) [-5|5] "deg"  VDC
+
+BO_ 1068 HEVC_A108: 8 ECM_HEVC
+ SG_ AnticipatedElectricGearChange : 0|1@0+ (1,0) [0|1] ""  VDC
+ SG_ VehicleTractionMode : 15|3@0+ (1,0) [0|7] ""  VDC
+
+BO_ 124 HEVC_A115: 8 ECM_HEVC
+ SG_ CRC_HEVC_A115 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_A115 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ ElecBrakeTorqueActuatorStatus : 34|2@0+ (1,0) [0|3] ""  VDC
+ SG_ ElecBrakeWheelMaxPotentialTorque : 32|13@0+ (1,0) [0|8190] "Nm"  VDC
+ SG_ ElecBrakeWheelTorqueApplied : 31|13@0+ (1,0) [0|8190] "Nm"  VDC
+ SG_ ElecMachineSpeed : 11|12@0+ (10,-20000) [-20000|20000] "rpm"  VDC
+ SG_ RE_ElecMachineSpeed : 51|12@0+ (10,-16390) [-16390|16390] "rpm"  VDC
+
+BO_ 1563 HEVC_A134_FD_CH2: 3 HEVC
+ SG_ DriveCycle : 23|1@0+ (1,0) [0|1] ""  VDC
+ SG_ IUPR_ColdStartDenom : 5|2@0+ (1,0) [0|3] ""  VDC
+ SG_ IUPR_EvapDenom : 3|2@0+ (1,0) [0|3] ""  VDC
+ SG_ IUPR_GeneralDenom : 7|2@0+ (1,0) [0|3] ""  VDC
+ SG_ IgnCycleCount_v2_2 : 22|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 340 HEVC_A140C_FD_CH2: 12 HEVC
+ SG_ CRC_HEVC_A140_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_A140_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ CooperativeRegenerativeTorqueReq : 75|1@0+ (1,0) [0|1] ""  VDC
+ SG_ DLC_HEVC_A140 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Fr_RequestedWheelTorqueAfterProc : 43|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+ SG_ Fr_TorqueRequestStatus_2 : 77|1@0+ (1,0) [0|1] ""  VDC
+ SG_ Header_HEVC_A140 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ Rr_RequestedWheelTorqueAfterProc : 60|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+ SG_ Rr_TorqueRequestStatus_2 : 76|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 353 HEVC_A141C_FD_CH2: 12 HEVC
+ SG_ CRC_HEVC_A141_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_A141_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_HEVC_A141 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Fr_EstimatedPWTWheelTorque_2 : 43|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+ SG_ Header_HEVC_A141 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ Rr_ElecBrakeTorqueActuatorStatus : 77|2@0+ (1,0) [0|1] ""  VDC
+ SG_ Rr_EstimatedPWTWheelTorque_2 : 60|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+
+BO_ 329 HEVC_A165_FD: 2 CDM
+ SG_ ElecBrakeWheelMaxAvailableTorque : 7|13@0+ (1,0) [0|8190] "Nm"  VDC
+
+BO_ 274 HEVC_A16C_FD_CH2: 12 HEVC
+ SG_ CRC_HEVC_A124_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_A124_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_HEVC_A124 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_HEVC_A124 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ TargetCoastWheelTorque_2 : 60|13@0+ (1,0) [0|8190] "Nm"  VDC
+
+BO_ 540 HEVC_A18C_FD_CH2: 8 HEVC
+ SG_ CRC_HEVC_A125_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_A125_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_HEVC_A125 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_HEVC_A125 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ TorqueConverterState_SF : 63|2@0+ (1,0) [0|1] ""  VDC
+ SG_ ePedalStatus : 49|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 94 HEVC_A19C_FD_CH2: 12 HEVC
+ SG_ DLC_HEVC_A146 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_HEVC_A146 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ Rr_ASR_MSRacknowledgement_2 : 83|1@0+ (1,0) [0|1] ""  VDC
+ SG_ Rr_ElecBrakeWheelMaxPotTorque_2 : 64|13@0+ (1,0) [0|8190] ""  VDC
+ SG_ Rr_ElecBrakeWheelsTorqueApplied_ : 39|13@0+ (1,0) [0|8190] "Nm"  VDC
+
+BO_ 1070 HEVC_R101: 7 ECM_HEVC
+ SG_ EngineCalculatedLoad : 31|9@0+ (0.39,0) [0|100] "%"  VDC
+ SG_ OBDPrmtDelCdn : 33|1@0+ (1,0) [0|1] ""  VDC
+ SG_ OBDWarmUpCycleDet : 32|1@0+ (1,0) [0|1] ""  VDC
+ SG_ OBD_Ready_On : 47|1@0+ (1,0) [0|1] ""  VDC
+
+BO_ 690 HEVC_R119C_FD: 12 CDM
+ SG_ CRC_HEVC_R119 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_R119 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_HEVC_R119 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_HEVC_R119 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ Rr_L_ASR_MSRacknowledgement : 56|1@0+ (2,0) [0|1] ""  VDC
+ SG_ Rr_L_EstimatedPWTWheelTorque : 55|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+ SG_ Rr_L_ReqWheelTorqueAfterProc : 71|15@0+ (2,-20000) [-20000|20000] ""  VDC
+ SG_ Rr_L_TorqueRequestStatus : 72|1@0+ (2,0) [0|1] ""  VDC
+
+BO_ 691 HEVC_R120C_FD: 12 CDM
+ SG_ CRC_HEVC_R119 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_R120 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_HEVC_R120 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_HEVC_R120 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ Rr_R_ASR_MSRacknowledgement : 56|1@0+ (2,0) [0|1] ""  VDC
+ SG_ Rr_R_EstimatedPWTWheelTorque : 55|15@0+ (2,-20000) [-20000|20000] "Nm"  VDC
+ SG_ Rr_R_ReqWheelTorqueAfterProc : 71|15@0+ (2,-20000) [-20000|20000] ""  VDC
+ SG_ Rr_R_TorqueRequestStatus : 72|1@0+ (2,0) [0|1] ""  VDC
+
+BO_ 375 HEVC_R133C_FD: 12 CDM
+ SG_ CRC_HEVC_R133 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_HEVC_R133 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_HEVC_R133 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_HEVC_R133 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ Rr_L_ElecMachineSpeed : 43|12@0+ (10,-20000) [-20000|20000] ""  VDC
+ SG_ Rr_R_ElecMachineSpeed : 63|12@0+ (10,-20000) [-20000|20000] "Nm"  VDC
+
+BO_ 1384 IVI_A123: 8 GWBridge
+ SG_ CurrentSpecificUserState : 11|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1318 IVI_A3: 6 GWBridge
+ SG_ VehicleSpeedbyGPS : 23|14@0+ (0.03,0) [0|255] "km/h"  VDC
+
+BO_ 967 IVI_A5: 8 GWBridge
+ SG_ SatelliteGPSNumber : 55|7@0+ (1,0) [0|126] "wu"  VDC
+ SG_ TPW_ResetDriverRequest2 : 47|2@0+ (1,0) [0|3] ""  VDC
+ SG_ VehicleGPSreliability : 31|7@0+ (1,0) [0|127] ""  VDC
+
+BO_ 1596 IVI_R103: 8 GWBridge
+ SG_ HDC_ActivationRequest2 : 47|2@0+ (1,0) [0|3] ""  VDC
+ SG_ TCS_DeactivationRequest2 : 45|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1104 METER_A103_FD_CH2: 7 METER
+ SG_ RawFuelGaugeResistance_2 : 7|10@0+ (1,0) [0|1022] "Ohm"  VDC
+ SG_ WelcomeSequenceStatus : 34|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 1105 METER_A104C_FD_CH2: 12 METER
+ SG_ CRC_METER_A104_2 : 47|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_METER_A104_2 : 35|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_METER_A104 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ DayNightForBacklights_2 : 55|2@0+ (1,0) [0|3] ""  VDC
+ SG_ ExternalTemperature_2 : 69|9@0+ (0.25,-50) [-50|70] ""  VDC
+ SG_ Header_METER_A104 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ LowBrakeFluidLevelStatus_2 : 76|2@0+ (1,0) [0|3] ""  VDC
+ SG_ ParkingBrakeStatus_2 : 71|2@0+ (1,0) [0|3] ""  VDC
+ SG_ TPW_ResetDriverRequest : 37|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 879 METER_A4: 4 METER
+ SG_ MemorizedDistanceTotalizer : 7|28@0+ (0.01,0) [0|2600000] "km"  VDC
+
+BO_ 1530 METER_UserSetPref_A3: 8 METER
+ SG_ VDCactivationRequest : 55|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 168 STRG_A1: 7 STRG
+ SG_ CRC_STRG_A1 : 7|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_STRG_A1 : 15|4@0+ (1,0) [0|15] ""  VDC
+ SG_ SteeringWheelAngleRaw : 22|15@0+ (0.1,-1080) [-1080|1080] "degree"  VDC
+ SG_ SteeringWheelRotationSpeed : 47|16@0+ (0.1,-3276.7) [-3276.7|3276.7] "\xB0/s"  VDC
+ SG_ SwaSensorFailCode : 36|5@0+ (1,1) [1|31] ""  VDC
+ SG_ SwaSensorInternalStatus : 39|3@0+ (1,0) [0|7] ""  VDC
+
+BO_ 380 STRG_A2C_FD: 12 CDM
+ SG_ CRC_STRG_A2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_STRG_A2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_STRG_A2 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_STRG_A2 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ SteeringWheelAngleRaw_EPS : 54|15@0+ (0.1,-1080) [-1080|1080] ""  VDC
+ SG_ SteeringWheelRotationSpeed_EPS : 79|16@0+ (0.1,-3276.7) [-3276.7|3276.7] ""  VDC
+ SG_ SwaSensorInternalStatus_EPS : 71|3@0+ (1,0) [0|7] ""  VDC
+
+BO_ 1984 STRG_DiagnosisInfo_Frame: 4 VDC
+ SG_ CRC_STRG_DiagnosisInfo_Frame : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_STRG_DiagnosisInfo_Frame : 31|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ STRG_DiagnosisInfo : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1765 SWA_ConfigFrame: 8 SWA
+ SG_ SWA_Config : 7|64@0+ (1,0) [-1|0] ""  VDC
+
+BO_ 1107 USM_A101C_FD_CH2: 12 USM
+ SG_ BatteryVoltage_2 : 63|8@0+ (0.06,6) [6|18] ""  VDC
+ SG_ CRC_USM_A101_2 : 39|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Clock_USM_A101_2 : 47|4@0+ (1,0) [0|15] ""  VDC
+ SG_ DLC_USM_A101 : 31|8@0+ (1,0) [0|255] ""  VDC
+ SG_ Header_USM_A101 : 7|24@0+ (1,0) [0|16777215] ""  VDC
+ SG_ IgnitionSupplyConfirmation_2 : 52|1@0+ (1,0) [0|1] "V"  VDC
+ SG_ NeutralContact_2 : 41|2@0+ (1,0) [0|3] ""  VDC
+ SG_ RearGearEngaged_2 : 43|2@0+ (1,0) [0|3] ""  VDC
+
+BO_ 806 USM_R3: 2 USM
+ SG_ FrontHeightBody : 7|8@0+ (1.5,-190.5) [-190.5|190.5] "mm"  VDC
+ SG_ RearHeightBody : 15|8@0+ (1.5,-190.5) [-190.5|190.5] "mm"  VDC
+
+BO_ 18400021 VDCCHK_VDC2TOOL_1: 64 VDC
+ SG_ IS_HBA_Active : 20|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ IS_HBB_Active : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ IS_HBC_Active : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_EBP_Active : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_FBS_Active : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_OverSteerControl_Active : 16|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_PTM_Active : 24|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_REB_Active : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_RMF_Active : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_RollerTestBench_detected : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_SLC_Active : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_SSA_StandstillBrake_Applied : 54|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_SWA_Active : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_UnderSteerControl_Active : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_VDL_Active_CPC : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Is_ePedalStrongCoast_Applied : 55|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ p_ASR_InternalMode : 53|2@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ p_AYC_InternalMode : 51|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ p_BCRMode : 7|4@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ p_BrakingPressure_Primary_Circui : 71|10@0+ (0.25,0) [0|255.75] "" Vector__XXX
+ SG_ p_BrakingPressure_Secondary_Circ : 77|10@0+ (0.25,0) [0|255.75] "" Vector__XXX
+ SG_ p_EstimatedVacuum_VESS : 12|7@0+ (1,0) [0|1270] "" Vector__XXX
+ SG_ p_VDC_Pump_RPM : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ p_VacuumSensorMeasure : 3|7@0+ (1,0) [0|1270] "" Vector__XXX
+
+BO_ 18400022 VDCCHK_VDC2TOOL_2: 8 VDC
+ SG_ AEBS_Applicated_Request_VDC : 5|4@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ AEBS_Gain_Applicated : 15|5@0+ (0.05,1) [0|2] "" Vector__XXX
+ SG_ AEBS_Gain_status_VDC : 7|2@0+ (1,0) [0|102] "" Vector__XXX
+ SG_ GCC_Brake_Application_Status : 23|2@0+ (1,0) [0|2] "" Vector__XXX
+ SG_ GCC_Yaw_Application_Status : 9|2@0+ (1,0) [0|2] "" Vector__XXX
+ SG_ HBA_Threshold_Decreased : 21|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VDC_Standstill_Internal_Status : 12|3@0+ (1,0) [0|5] "" Vector__XXX
+ SG_ p_AEBS_AppliedValueRequest : 47|8@0+ (0.1,-15) [-15|11] "" Vector__XXX
+ SG_ p_AEBS_Haptic_Initial_Speed : 55|8@0+ (1,0) [0|250] "" Vector__XXX
+ SG_ p_AEBS_HighDecel_Initial_Speed : 63|8@0+ (1,0) [0|250] "" Vector__XXX
+ SG_ p_SSF_ADASBrakingPressureHoldThr : 20|10@0+ (1,0) [0|102] "" Vector__XXX
+ SG_ p_SSF_BrakingPressureHoldThresho : 26|10@0+ (1,0) [0|102] "" Vector__XXX
+
+BO_ 18400023 VDCCHK_VDC2TOOL_3: 8 VDC
+ SG_ EstimatedBrakeTemperature_FL : 7|10@0- (1,-100) [-100|923] "degree" Vector__XXX
+ SG_ EstimatedBrakeTemperature_FR : 39|10@0- (1,-100) [-100|923] "degree" Vector__XXX
+ SG_ EstimatedHydraulicWheelBrkTrq_FL : 19|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+ SG_ EstimatedHydraulicWheelBrkTrq_FR : 51|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+ SG_ EstimatedWheelBrakePressure_FL : 13|10@0+ (0.25,0) [0|256] "bars" Vector__XXX
+ SG_ EstimatedWheelBrakePressure_FR : 45|10@0+ (0.25,0) [0|256] "bars" Vector__XXX
+
+BO_ 18400024 VDCCHK_VDC2TOOL_4: 8 VDC
+ SG_ EstimatedBrakeTemperature_RL : 7|10@0- (1,-100) [-100|923] "degree" Vector__XXX
+ SG_ EstimatedBrakeTemperature_RR : 39|10@0- (1,-100) [-100|923] "degree" Vector__XXX
+ SG_ EstimatedHydraulicWheelBrkTrq_RL : 19|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+ SG_ EstimatedHydraulicWheelBrkTrq_RR : 51|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+ SG_ EstimatedWheelBrakePressure_RL : 13|10@0+ (0.25,0) [0|256] "bars" Vector__XXX
+ SG_ EstimatedWheelBrakePressure_RR : 45|10@0+ (0.25,0) [0|256] "bars" Vector__XXX
+
+BO_ 965 VDC_A01C_FD_CH2: 12 VDC
+ SG_ DLC_VDC_A16 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ FL_WSS_DiagNotComplete_2 : 55|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FL_WSS_OpenFail_2 : 54|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FL_WSS_OutOfRangeFail_2 : 51|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FL_WSS_RationalityFail_2 : 50|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FL_WSS_ShortToGroundFail_2 : 52|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FL_WSS_ShortToPowerFail_2 : 53|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FR_WSS_DiagNotComplete_2 : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FR_WSS_OpenFail_2 : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FR_WSS_ShortToPowerFail_2 : 63|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FR_WSS_OutOfRangeFail_2 : 61|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FR_WSS_RationalityFail : 60|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ FR_WSS_ShortToGroundFail_2 : 62|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Header_VDC_A16 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ LongiAccelDiagNotComplete_2 : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LongiAccelGroundShort_2 : 40|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LongiAccelOpenFail_2 : 42|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LongiAccelPowerShort_2 : 41|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LongitudinalAccelForECM_2 : 39|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ RL_WSS_DiagNotComplete : 59|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RL_WSS_OpenFail : 58|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RL_WSS_OutOfRangeFail : 71|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RL_WSS_RationalityFail : 70|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RL_WSS_ShortToGroundFail : 56|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RL_WSS_ShortToPowerFail : 57|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RR_WSS_DiagNotComplete : 69|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RR_WSS_OpenFail : 68|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RR_WSS_OutOfRangeFail : 65|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RR_WSS_RationalityFail : 64|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RR_WSS_ShortToGroundFail : 66|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ RR_WSS_ShortToPowerFail : 67|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 182 VDC_A04C_FD_CH2: 32 VDC
+ SG_ AEB_BrakingPerformanceStatus_RD2 : 219|2@0+ (1,0) [0|3] "N" Vector__XXX
+ SG_ BrakePedalPressedByDriver_RD2 : 217|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BrakingPressure_RD2 : 95|8@0+ (0.5,0) [0|126] "bar" Vector__XXX
+ SG_ CRC_VDC_A122 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A123 : 135|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A124 : 215|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A122 : 47|4@0+ (1,0) [0|15] "Nm" Vector__XXX
+ SG_ Clock_VDC_A123 : 143|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Clock_VDC_A124 : 223|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_A122 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A123 : 127|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A124 : 207|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DriverTargetYawRate_RD2 : 238|13@0+ (0.01,-30) [-30|30] "deg/s" Vector__XXX
+ SG_ GradientYawRate_RD2 : 231|9@0+ (0.2,-30) [-30|30] "deg/s^2" Vector__XXX
+ SG_ Header_VDC_A122 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A123 : 103|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A124 : 183|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ LongitudinalAccelCorrected_RD2 : 139|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ LongitudinalControlStatus_VDC_RD : 85|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SteerRackPinionAngleCorrect_RD2 : 68|15@0+ (0.1,-1080) [-1080|1080] "deg" Vector__XXX
+ SG_ TransversalAccelCorrected_RD2 : 159|12@0+ (0.001,-2) [-2|2] "" Vector__XXX
+ SG_ TransversalAccelRaw_RD2 : 163|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ YawRateRaw_RD2 : 63|11@0+ (0.1,-100) [-100|100] "" Vector__XXX
+
+BO_ 707 VDC_A05C_FD_CH2: 48 VDC
+ SG_ ABSMalfunction_RD2 : 138|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ABSinRegulation_RD2 : 139|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ASRMalfunction_RD2 : 136|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ASRinRegulation_RD2 : 137|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ AYCinRegulation_RD2 : 144|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRC_VDC_A126 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A127 : 135|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A128 : 223|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A126 : 47|4@0+ (1,0) [0|15] "Nm" Vector__XXX
+ SG_ Clock_VDC_A127 : 143|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Clock_VDC_A128 : 231|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_A126 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A127 : 127|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A128 : 215|8@0+ (0.01,0) [0|2.55] "" Vector__XXX
+ SG_ ESCMalfunction_RD2 : 152|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Header_VDC_A126 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A127 : 103|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A128 : 191|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ MSRinRegulation_RD2 : 160|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ParkingBrakeBindingStatus_RD2_2 : 182|2@0+ (1,0) [0|3] "deg/s" Vector__XXX
+ SG_ ParkingBrakeMalfunctionStatus_RD : 168|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ParkingBrakeRequestInProgres_RD2 : 180|2@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TSFinRegulation_RD2 : 183|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VehicleSpeedBody_RD2 : 87|15@0+ (0.01,0) [0|250] "km/h" Vector__XXX
+ SG_ VehicleSpeed_RD2 : 227|16@0+ (0.01,0) [0|655.34] "km/h" Vector__XXX
+ SG_ WheelDirectionRL_RD2 : 43|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ WheelDirectionRR_RD2 : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ WheelSpeedFL_RD2 : 243|16@0+ (0.0416666667,0) [0|2730.583333] "rpm" Vector__XXX
+ SG_ WheelSpeedFR_RD2 : 259|16@0+ (0.0416666667,0) [0|2730.583333] "rpm" Vector__XXX
+ SG_ WheelSpeedRL_RD2 : 55|16@0+ (0.0416666667,0) [0|2730.583333] "rpm" Vector__XXX
+ SG_ WheelSpeedRR_RD2 : 71|16@0+ (0.0416666667,0) [0|2730.583333] "" Vector__XXX
+ SG_ WheelTopFL_RD2 : 151|7@0+ (1,0) [0|96] "top" Vector__XXX
+ SG_ WheelTopFR_RD2 : 159|7@0+ (1,0) [0|96] "top" Vector__XXX
+ SG_ WheelTopRL_RD2 : 167|7@0+ (1,0) [0|96] "top" Vector__XXX
+ SG_ WheelTopRR_RD2 : 175|7@0+ (1,0) [0|96] "top" Vector__XXX
+
+BO_ 1366 VDC_A102_FD: 8 VDC
+ SG_ FL_WSS_OpenFail_v2 : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FL_WSS_OutOfRangeFail_High : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FL_WSS_OutOfRangeFail_Low : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FL_WSS_RationalityFail_V2 : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FL_WSS_ShortToGroundFail_v2 : 15|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FL_WSS_ShortToPowerFail_v2 : 13|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FR_WSS_OpenFail_v2 : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FR_WSS_OutOfRangeFail_High : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FR_WSS_OutOfRangeFail_Low : 23|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FR_WSS_RationalityFail_V2 : 21|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FR_WSS_ShortToGroundFail_v2 : 19|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FR_WSS_ShortToPowerFail_v2 : 17|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lateral_OpenFail : 31|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lateral_OutOfRangeFail_High : 29|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lateral_OutOfRangeFail_Low : 27|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lateral_RationalityFail : 25|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lateral_ShortToGroundFail : 39|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lateral_ShortToPowerFail : 37|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Longitudinal_OpenFail : 35|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Longitudinal_OutOfRangeFail_High : 33|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Longitudinal_OutOfRangeFail_Low : 47|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Longitudinal_RationalityFail : 45|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Longitudinal_ShortToGroundFail : 43|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Longitudinal_ShortToPowerFail : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SWA_ShortToGroundFail : 59|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SWA_ShortToPowerFail : 57|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ YawRate_OpenFail : 55|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ YawRate_OutOfRangeFail_High : 53|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ YawRate_OutOfRangeFail_Low : 51|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ YawRate_RationalityFail : 49|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ YawRate_ShortToGroundFail : 63|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ YawRate_ShortToPowerFail : 61|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1382 VDC_A103_FD: 8 VDC
+ SG_ RL_WSS_OpenFail_v2 : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RL_WSS_OutOfRangeFail_High : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RL_WSS_OutOfRangeFail_Low : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RL_WSS_RationalityFail_V2 : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RL_WSS_ShortToGroundFail_v2 : 15|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RL_WSS_ShortToPowerFail_v2 : 13|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RR_WSS_OpenFail_v2 : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RR_WSS_OutOfRangeFail_High : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RR_WSS_OutOfRangeFail_Low : 23|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RR_WSS_RationalityFail_V2 : 21|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RR_WSS_ShortToGroundFail_v2 : 19|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RR_WSS_ShortToPowerFail_v2 : 17|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SWA_OpenFail : 31|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SWA_OutOfRangeFail_High : 29|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SWA_OutOfRangeFail_Low : 27|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SWA_RationalityFail : 25|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VDC_CVN : 39|2@0+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 1393 VDC_A104_FD: 8 VDC
+ SG_ VDC_CalID2 : 7|64@0+ (1,0) [0|1.84467440737095E+019] "" Vector__XXX
+
+BO_ 1401 VDC_A105_FD: 8 VDC
+ SG_ VDC_CalID1 : 7|64@0+ (1,0) [0|1.84467440737095E+019] "" Vector__XXX
+
+BO_ 547 VDC_A110C_FD_CH2: 12 VDC
+ SG_ ARPinRegulation : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRC_VDC_A110 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A110 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_A110 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DriverDecelerationByBrake : 63|8@0+ (0.05,-12.7) [-12.7|0] "m/s2" Vector__XXX
+ SG_ ESCDecelerationTarget : 79|8@0+ (0.05,-12.7) [-12.7|0] "m/s2" Vector__XXX
+ SG_ E_LSD_TorqueRequest : 71|8@0+ (10,0) [0|2540] "Nm" Vector__XXX
+ SG_ EmergencyBrakeAssistStatus : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Header_VDC_A110 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ RequestedTransferedTorque_v2 : 85|12@0+ (1,0) [0|4000] "Nm" Vector__XXX
+ SG_ VDC_4WDRequestMode : 87|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 548 VDC_A112_FD_CH2: 7 VDC
+ SG_ BrakeWheelTorqueEstimation_2 : 7|16@0+ (1,0) [0|65534] "Nm" Vector__XXX
+ SG_ DynamicBrakingAvailability_2 : 55|2@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DynamicBrakingProgressForEPB_2 : 53|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Forced_2WD_mode : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MinWheelTorqueForRelease_2 : 23|16@0+ (0.5,-6400) [-6400|26367] "" Vector__XXX
+ SG_ RequestedTransferedTorque : 39|12@0+ (1,0) [0|4000] "Nm" Vector__XXX
+
+BO_ 1109 VDC_A113C_FD_CH2: 12 VDC
+ SG_ ABSstateDisplayRequest_2 : 61|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ AccurateOdometer : 55|5@0+ (4,0) [0|120] "cm" Vector__XXX
+ SG_ BrakeVacuumStatus_2 : 50|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BrakingSystemStateDisplayRequest : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRBSfailureDisplayAlert : 59|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRC_VDC_A113 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A113 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_A113 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DynamicBrakingInProgressForEPB_v : 92|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EBAfailureDisplayAlert : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EBDstateDisplayRequest_2 : 58|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ HBBMalfunction : 69|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ HDC_Status : 95|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ HDC_StatusDisplay : 42|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ HSA_ActivationState_2 : 68|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ HSA_StatusDisplay : 66|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ HSAstateDisplayRequest : 64|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Header_VDC_A113 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ LowPWTregenBrakeTorqueRequest : 79|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LowVacPWT_RestartImpossibleAlert : 93|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MCB_FailureDisplay : 89|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Maintenance_Mode_Status_VDC_2 : 78|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SSA_EngineStopAutoForbidden : 76|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ TPW_AcknowledgeResetDriver : 74|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ TPW_HighSensitivityStatus : 72|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TPW_Status : 87|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ TPW_TireCheckReminder : 85|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VDC_Deactivated_v2 : 91|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VDC_MILlamp : 80|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VDC_ShiftMapChangeRequest : 84|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VDCactivationState : 82|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VDCdeactivationDisplayRequest : 81|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VDCstateDisplayRequest_2 : 63|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VehicleSpeedSign_2 : 57|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1081 VDC_A114: 7 VDC
+ SG_ DiffLockSwitching_VDC : 45|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ DistanceTotalizer : 15|28@0+ (0.01,0) [0|2600000] "km" Vector__XXX
+ SG_ HDC_ActivationRefusedDisplay : 47|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ HDC_status_information : 35|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SSA_NotImmobilizedVehicleWarning : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SSA_StateLamp_byVDC : 42|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SideWindAssistActivationDispReq : 46|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SlopeEstimation : 7|8@0+ (0.2,-15) [-15|15] "" Vector__XXX
+ SG_ TCS_DeactivationState : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TCS_DeactivationStateToMETER : 50|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VDC_Deactivated : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 550 VDC_A116C_FD_CH2: 48 VDC
+ SG_ ABSMalfunction_2 : 231|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ABSinRegulation_2 : 184|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ AD_StandStillStatus_byVDC : 51|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ASRMalfunction_2 : 230|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ASRinRegulation_2 : 192|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ AYCMalfunction_2 : 228|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ AYCinRegulation_2 : 229|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ AYCvehicleStabilityMargin : 227|4@0+ (14.3,-100) [-100|100] "%" Vector__XXX
+ SG_ Braking_StopAutoForbidden_2 : 43|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CRC_VDC_A115 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A3 : 95|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A4 : 247|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A115 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Clock_VDC_A3 : 103|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Clock_VDC_A4 : 235|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_A115 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A3 : 87|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A4 : 183|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A9 : 279|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ EBD_Active_2 : 216|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESCMalfunction : 217|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESP_StopLampRequest_2 : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Header_VDC_A115 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A3 : 63|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A4 : 159|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A9 : 255|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ MSRinRegulation_2 : 200|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ShiftingAuthorization : 55|2@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ StopLampFlashingRequest_2 : 53|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TSFinRegulation : 208|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VDC_StandStillStatus_2 : 219|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VDC_StandStillSupposed : 333|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VehicleSpeed_2 : 319|16@0+ (0.01,0) [0|655.34] "km/h" Vector__XXX
+ SG_ VehicleSpeedBody_2 : 143|16@0+ (0.01,0) [0|655.34] "km/h" Vector__XXX
+ SG_ VehicleSpeedCRC : 343|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VehicleSpeedClock : 331|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ WheelDirectionFL : 239|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ WheelDirectionFR : 237|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ WheelDirectionRL : 223|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ WheelDirectionRR : 221|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ WheelSpeedFL : 303|16@0+ (0.0416666667,0) [0|2730.583333] "" Vector__XXX
+ SG_ WheelSpeedFR : 287|16@0+ (0.0416666667,0) [0|2730.583333] "rpm" Vector__XXX
+ SG_ WheelSpeedRL : 111|16@0+ (0.0416666667,0) [0|2730.583333] "rpm" Vector__XXX
+ SG_ WheelSpeedRR : 127|16@0+ (0.0416666667,0) [0|2730.583333] "rpm" Vector__XXX
+ SG_ WheelTopFL : 191|7@0+ (1,0) [0|96] "top" Vector__XXX
+ SG_ WheelTopFR : 199|7@0+ (1,0) [0|96] "top" Vector__XXX
+ SG_ WheelTopRL : 207|7@0+ (1,0) [0|96] "" Vector__XXX
+ SG_ WheelTopRR : 215|7@0+ (1,0) [0|96] "" Vector__XXX
+
+BO_ 427 VDC_A117C_FD_CH2: 48 VDC
+ SG_ AEB_BrakingPerformanceStatus_2 : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BrakePedalPressedByDriver : 74|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BrakingPressure_2 : 335|8@0+ (0.5,0) [0|126] "bar" Vector__XXX
+ SG_ Braking_ClutchRequest : 364|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CRC_VDC_A10 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A12 : 119|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A5 : 215|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CRC_VDC_A6 : 311|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A10 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Clock_VDC_A12 : 127|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Clock_VDC_A5 : 223|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Clock_VDC_A6 : 319|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_A10 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A12 : 111|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A5 : 207|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DLC_VDC_A6 : 303|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ DriverBrakingPressure_v2 : 167|10@0+ (0.03,-3) [-3|27.66] "MPa" Vector__XXX
+ SG_ DriverTargetYawRate : 71|13@0+ (0.01,-30) [-30|30] "deg/s" Vector__XXX
+ SG_ ExternalBrakeRequestStatus_2 : 171|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ExternalBrakeValueRequest_2 : 151|16@0+ (0.007813,-252) [-252|252] "mL/s" Vector__XXX
+ SG_ GlobalBrakingPerformanceStatus : 362|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ GradientYawRate : 48|9@0+ (0.2,-30) [-30|30] "deg/s^2" Vector__XXX
+ SG_ Header_VDC_A10 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A12 : 87|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A5 : 183|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Header_VDC_A6 : 279|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ LateralControlStatus_2 : 344|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LongitudinalAccelCorrected_2 : 231|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ LongitudinalAccelRaw_2 : 235|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ LongitudinalControlStatus_2 : 315|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ LongitudinalControlStatus_VDC : 360|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MastervacPressure_v2 : 55|7@0+ (1,0) [0|100] "kPa" Vector__XXX
+ SG_ PedalFeelActuationStatus : 173|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SteerRackPinionAngleCorrect_2 : 343|15@0+ (0.1,-1080) [-1080|1080] "deg" Vector__XXX
+ SG_ TargetPressurePedalFeel : 123|10@0+ (0.025,0) [0|25] "MPa" Vector__XXX
+ SG_ TransversalAccelCorrected_2 : 255|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ TransversalAccelRaw : 259|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ VDC_VirtualPressure : 129|10@0+ (0.025,0) [0|25] "Mpa" Vector__XXX
+ SG_ YawRateCorrected_2 : 314|11@0+ (0.1,-100) [-100|100] "deg/s" Vector__XXX
+ SG_ YawRateRaw : 359|11@0+ (0.1,-100) [-100|100] "deg/s" Vector__XXX
+
+BO_ 431 VDC_A118: 7 VDC
+ SG_ ABSinRegulation_CRBS : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRC_VDC_A118 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ CaliperPlungerMaxPressure : 39|8@0+ (0.1,0) [0|25] "MPa" Vector__XXX
+ SG_ Clock_VDC_A118 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ EBA_MotorLimitationRequest : 50|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EBA_SmoothStartRequest : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ElecBrakeWheelTorqueRequest : 47|13@0+ (1,0) [0|8190] "Nm" Vector__XXX
+ SG_ FourWheelReferenceSpeed : 23|16@0+ (0.01,0) [0|655.34] "km/h" Vector__XXX
+ SG_ RegenBrakeInRegulation : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RegenBrakeMalfunction_VDC : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 165 VDC_A119: 6 VDC
+ SG_ CRC_VDC_A119 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A119 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Rr_ElecBrakeWheelTorqueReq : 11|13@0+ (1,0) [0|8190] "Nm" Vector__XXX
+ SG_ Rr_RegenBrakeInRegulation : 47|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 330 VDC_A120_FD_CH2: 7 VDC
+ SG_ CRC_VDC_A120 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A120 : 43|4@0+ (2,0) [0|15] "" Vector__XXX
+ SG_ RSA_AccelStartAssistinhibit : 22|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Rr_ASR_WheelTorqueRequest : 26|15@0+ (2,-20000) [-20000|20000] "Nm" Vector__XXX
+ SG_ Rr_ESC_TorqueControlType : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Rr_MSR_WheelTorqueRequest : 5|15@0+ (2,-20000) [-20000|20000] "Nm" Vector__XXX
+ SG_ TargetBrakingWheelTorque : 21|11@0+ (3,0) [0|5110] "Nm" Vector__XXX
+
+BO_ 100 VDC_A121_FD_CH2: 6 VDC
+ SG_ CRC_VDC_A121 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A121 : 35|4@0+ (2,0) [0|15] "" Vector__XXX
+ SG_ Fr_BrakeWheelTorque : 10|13@0+ (2,0) [0|10000] "Nm" Vector__XXX
+ SG_ Rr_BrakeWheelTorque : 7|13@0+ (2,0) [0|10000] "Nm" Vector__XXX
+ SG_ TargetBrakingForce : 29|10@0+ (10,0) [0|10220] "Nm" Vector__XXX
+
+BO_ 995 VDC_A130_FD_CH2: 3 VDC
+ SG_ CRC_VDC_A130 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A130 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ SlopeEstimation_RD2 : 23|8@0+ (0.2,-15) [-15|15] "" Vector__XXX
+
+BO_ 354 VDC_A131: 5 VDC
+ SG_ CRC_VDC_A131 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A131 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ PathChangeRequest2 : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TransversalAccelRaw_RD : 11|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ YawRateRaw_RD : 31|11@0+ (0.1,-100) [-100|100] "" Vector__XXX
+
+BO_ 685 VDC_A132: 8 VDC
+ SG_ ABSinRegulation_RD : 51|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ CRC_VDC_A132 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A132 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ LongitudinalAccelCorrected_RD : 11|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+
+BO_ 687 VDC_A134: 4 VDC
+ SG_ CRC_VDC_A134 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A134 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ SteerRackPinionAngleCorrect_RD : 8|15@0+ (0.1,-1080) [-1080|1080] "" Vector__XXX
+
+BO_ 1414 VDC_A136: 2 VDC
+ SG_ BrakeMapChangeRequest : 11|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ CRC_VDC_A136 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A136 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 1274 VDC_A137_FD: 4 VDC
+ SG_ LongitudinalAccelCorrected_EDR : 4|12@0+ (0.001,-2) [-2|2] "G" Vector__XXX
+ SG_ SSA_SteepSlopeWarning_Req_VDC : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ SSA_SwitchReleaseDispReq_byVDC : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ TransversalAccelCorrected_EDR : 23|12@0+ (0.001,-2) [-2|2] "" Vector__XXX
+
+BO_ 374 VDC_A138: 7 VDC
+ SG_ CRC_VDC_A138 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A138 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ LongitudinalControlActuatorMode : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ LongitudinalControlForce_VDC : 34|13@0+ (8,0) [0|65000] "N" Vector__XXX
+ SG_ LongitudinalControlGradientOrder : 31|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ ModulationPressureRequest : 27|9@0+ (0.25,0) [0|120] "bar" Vector__XXX
+ SG_ ReductionPressureInfo : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ReductionPressureRequest : 23|8@0+ (0.5,0) [0|120] "bar" Vector__XXX
+ SG_ SuctionSupportOrder : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 163 VDC_A2C_FD_CH2: 12 VDC
+ SG_ ASRDynamicWheelTorqueRequest_v2_ : 71|15@0+ (2,-20000) [-20000|20000] "Nm" Vector__XXX
+ SG_ ASRStaticWheelTorqueRequest_v2_2 : 87|15@0+ (2,-20000) [-20000|20000] "Nm" Vector__XXX
+ SG_ CRC_VDC_A2 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_A2 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_A2 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ESC_TorqueControlType_2 : 43|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Header_VDC_A2 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ IdleStopBrakeHoldFunctionStandby : 40|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MSRWheelTorqueRequest_v2_2 : 55|15@0+ (2,-20000) [-20000|20000] "Nm" Vector__XXX
+
+BO_ 650 VDC_A9: 8 VDC
+ SG_ VehicleSpeed : 39|16@0+ (0.01,0) [0|655.34] "km\h" Vector__XXX
+ SG_ VehicleSpeedCRC : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VehicleSpeedClock : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 1291 VDC_M101_FD: 1 VDC
+ SG_ BrakeActiveDisplayReqFL : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BrakeActiveDisplayReqFR : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BrakeActiveDisplayReqRL : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BrakeActiveDisplayReqRR : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BrakeHighTempDisplayRequest : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 704 VDC_N101_FD: 3 VDC
+ SG_ PitchAngleForDisplay : 15|7@0+ (1,-60) [-60|60] "" Vector__XXX
+ SG_ RollAngleForDisplay : 23|7@0+ (1,-60) [-60|60] "" Vector__XXX
+ SG_ SlipStatus_FL : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SlipStatus_FR : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SlipStatus_RL : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ SlipStatus_RR : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 723 VDC_R101C_FD: 12 VDC
+ SG_ CRC_VDC_R101 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Clock_VDC_R101 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ DLC_VDC_R101 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Header_VDC_R101 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Rr_L_ASR_MSR_WTqReq : 71|15@0+ (2,-20000) [-20000|20000] "" Vector__XXX
+ SG_ Rr_L_ESC_TorqueControlType : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Rr_R_ASR_MSR_WTqReq : 55|15@0+ (2,-20000) [-20000|20000] "" Vector__XXX
+ SG_ Rr_R_ESC_TorqueControlType : 43|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 699 VDC_R102_FD: 5 VDC
+ SG_ DriverBrakingPressure_MMI : 7|10@0+ (0.03,-3) [-3|30] "Mpa" Vector__XXX
+ SG_ LeftDrivenWheelSlip_MMI : 13|5@0+ (5,0) [0|100] "" Vector__XXX
+ SG_ RightDrivenWheelSlip_MMI : 23|5@0+ (5,0) [0|100] "%" Vector__XXX
+ SG_ Rr_LeftDrivenWheelSlip_MMI : 31|5@0+ (5,0) [0|100] "" Vector__XXX
+ SG_ Rr_RightDrivenWheelSlip_MMI : 39|5@0+ (5,0) [0|100] "%" Vector__XXX
+ SG_ VaccumPumpDurabilityLimitAlert : 18|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1183 VDC_R103_FD: 3 VDC
+ SG_ ElecVacPumpCounterMemorized : 7|22@0+ (1,0) [0|4139999] "Nm" Vector__XXX
+
+BO_ 1634 VDC_R14_FD_CH2: 6 VDC
+ SG_ FrontLeftBrakeTemperature : 23|8@0+ (5,-50) [-50|1220] "deg" Vector__XXX
+ SG_ FrontRightBrakeTemperature : 31|8@0+ (5,-50) [-50|1220] "deg" Vector__XXX
+ SG_ LateralTilt_MMI : 7|7@0+ (1,-60) [-60|60] "deg" Vector__XXX
+ SG_ LongitudinalTilt_MMI : 15|7@0+ (1,-60) [-60|60] "deg" Vector__XXX
+ SG_ RearLeftBrakeTemperature : 47|8@0+ (5,-50) [-50|1220] "deg" Vector__XXX
+ SG_ RearRightBrakeTemperature : 39|8@0+ (5,-50) [-50|1220] "deg" Vector__XXX
+
+BO_ 1173 VDC_R15_FD_CH2: 4 VDC
+ SG_ LongitudinalTilt_2 : 23|6@0+ (1,-20) [-20|20] "%" Vector__XXX
+ SG_ SlopeEstimation_v3 : 39|7@0+ (1,-36) [-36|36] "°" Vector__XXX
+ SG_ TPW_WheelStateFL : 28|1@0+ (1,1) [0|1] "" Vector__XXX
+ SG_ TPW_WheelStateFR : 27|1@0+ (1,1) [1|2] "" Vector__XXX
+ SG_ TPW_WheelStateRL : 26|1@0+ (1,1) [1|2] "" Vector__XXX
+ SG_ TPW_WheelStateRR : 25|1@0+ (1,1) [1|2] "" Vector__XXX
+
+
+
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_  "GenMsgBusNumber" INT 1 2;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ SG_  "SystemSignalLongSymbol" STRING ;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_  "GenMsgBusNumber" 1;
+BA_DEF_DEF_  "GenMsgCycleTime" 100;
+BA_DEF_DEF_  "SystemSignalLongSymbol" "";
+BA_ "BusType" "CAN FD";
+BA_ "DBName" "PublicPrivate";
+BA_ "GenMsgBusNumber" BO_ 1332 2;
+BA_ "GenMsgCycleTime" BO_ 1332 100;
+BA_ "VFrameFormat" BO_ 1332 14;
+BA_ "GenMsgBusNumber" BO_ 32 2;
+BA_ "GenMsgCycleTime" BO_ 32 500;
+BA_ "VFrameFormat" BO_ 32 14;
+BA_ "VFrameFormat" BO_ 464 0;
+BA_ "GenMsgBusNumber" BO_ 464 1;
+BA_ "GenMsgCycleTime" BO_ 464 10;
+BA_ "GenMsgBusNumber" BO_ 664 2;
+BA_ "GenMsgCycleTime" BO_ 664 20;
+BA_ "VFrameFormat" BO_ 664 14;
+BA_ "VFrameFormat" BO_ 974 0;
+BA_ "GenMsgBusNumber" BO_ 974 1;
+BA_ "GenMsgCycleTime" BO_ 974 100;
+BA_ "GenMsgBusNumber" BO_ 349 2;
+BA_ "GenMsgCycleTime" BO_ 349 10;
+BA_ "VFrameFormat" BO_ 349 14;
+BA_ "VFrameFormat" BO_ 159 0;
+BA_ "GenMsgBusNumber" BO_ 159 1;
+BA_ "GenMsgCycleTime" BO_ 159 10;
+BA_ "GenMsgBusNumber" BO_ 286 2;
+BA_ "GenMsgCycleTime" BO_ 286 10;
+BA_ "VFrameFormat" BO_ 286 14;
+BA_ "GenMsgBusNumber" BO_ 303 2;
+BA_ "GenMsgCycleTime" BO_ 303 10;
+BA_ "VFrameFormat" BO_ 303 14;
+BA_ "GenMsgBusNumber" BO_ 1100 2;
+BA_ "GenMsgCycleTime" BO_ 1100 100;
+BA_ "VFrameFormat" BO_ 1100 14;
+BA_ "GenMsgBusNumber" BO_ 336 2;
+BA_ "GenMsgCycleTime" BO_ 336 10;
+BA_ "VFrameFormat" BO_ 336 14;
+BA_ "VFrameFormat" BO_ 1506 0;
+BA_ "GenMsgBusNumber" BO_ 1506 1;
+BA_ "GenMsgCycleTime" BO_ 1506 1000;
+BA_ "VFrameFormat" BO_ 1143 0;
+BA_ "GenMsgBusNumber" BO_ 1143 1;
+BA_ "GenMsgCycleTime" BO_ 1143 100;
+BA_ "VFrameFormat" BO_ 1145 0;
+BA_ "GenMsgBusNumber" BO_ 1145 1;
+BA_ "GenMsgCycleTime" BO_ 1145 100;
+BA_ "VFrameFormat" BO_ 1146 0;
+BA_ "GenMsgBusNumber" BO_ 1146 1;
+BA_ "GenMsgCycleTime" BO_ 1146 100;
+BA_ "VFrameFormat" BO_ 944 0;
+BA_ "GenMsgBusNumber" BO_ 944 1;
+BA_ "GenMsgCycleTime" BO_ 944 100;
+BA_ "VFrameFormat" BO_ 1315 0;
+BA_ "GenMsgBusNumber" BO_ 1315 1;
+BA_ "GenMsgCycleTime" BO_ 1315 1000;
+BA_ "GenMsgBusNumber" BO_ 367 2;
+BA_ "GenMsgCycleTime" BO_ 367 10;
+BA_ "VFrameFormat" BO_ 367 14;
+BA_ "GenMsgBusNumber" BO_ 1518 2;
+BA_ "GenMsgCycleTime" BO_ 1518 1000;
+BA_ "VFrameFormat" BO_ 1518 14;
+BA_ "GenMsgBusNumber" BO_ 135 2;
+BA_ "GenMsgCycleTime" BO_ 135 10;
+BA_ "VFrameFormat" BO_ 135 14;
+BA_ "GenMsgBusNumber" BO_ 1116 2;
+BA_ "GenMsgCycleTime" BO_ 1116 100;
+BA_ "VFrameFormat" BO_ 1116 14;
+BA_ "GenMsgBusNumber" BO_ 576 2;
+BA_ "GenMsgCycleTime" BO_ 576 20;
+BA_ "VFrameFormat" BO_ 576 14;
+BA_ "GenMsgBusNumber" BO_ 1293 2;
+BA_ "GenMsgCycleTime" BO_ 1293 3000;
+BA_ "VFrameFormat" BO_ 1293 14;
+BA_ "GenMsgBusNumber" BO_ 507 2;
+BA_ "GenMsgCycleTime" BO_ 507 10;
+BA_ "VFrameFormat" BO_ 507 14;
+BA_ "VFrameFormat" BO_ 114 0;
+BA_ "GenMsgBusNumber" BO_ 114 1;
+BA_ "GenMsgCycleTime" BO_ 114 10;
+BA_ "GenMsgBusNumber" BO_ 526 2;
+BA_ "GenMsgCycleTime" BO_ 526 20;
+BA_ "VFrameFormat" BO_ 526 14;
+BA_ "VFrameFormat" BO_ 366 0;
+BA_ "GenMsgBusNumber" BO_ 366 1;
+BA_ "GenMsgCycleTime" BO_ 366 10;
+BA_ "VFrameFormat" BO_ 939 0;
+BA_ "GenMsgBusNumber" BO_ 939 1;
+BA_ "GenMsgCycleTime" BO_ 939 100;
+BA_ "GenMsgBusNumber" BO_ 462 2;
+BA_ "GenMsgCycleTime" BO_ 462 10;
+BA_ "VFrameFormat" BO_ 462 14;
+BA_ "GenMsgBusNumber" BO_ 1119 2;
+BA_ "GenMsgCycleTime" BO_ 1119 100;
+BA_ "VFrameFormat" BO_ 1119 14;
+BA_ "GenMsgBusNumber" BO_ 116 2;
+BA_ "GenMsgCycleTime" BO_ 116 10;
+BA_ "VFrameFormat" BO_ 116 14;
+BA_ "GenMsgBusNumber" BO_ 136 2;
+BA_ "GenMsgCycleTime" BO_ 136 10;
+BA_ "VFrameFormat" BO_ 136 14;
+BA_ "GenMsgBusNumber" BO_ 117 2;
+BA_ "GenMsgCycleTime" BO_ 117 10;
+BA_ "VFrameFormat" BO_ 117 14;
+BA_ "VFrameFormat" BO_ 1137 0;
+BA_ "GenMsgBusNumber" BO_ 1137 1;
+BA_ "GenMsgCycleTime" BO_ 1137 100;
+BA_ "VFrameFormat" BO_ 1139 0;
+BA_ "GenMsgBusNumber" BO_ 1139 1;
+BA_ "GenMsgCycleTime" BO_ 1139 100;
+BA_ "GenMsgBusNumber" BO_ 430 2;
+BA_ "GenMsgCycleTime" BO_ 430 10;
+BA_ "VFrameFormat" BO_ 430 14;
+BA_ "VFrameFormat" BO_ 747 0;
+BA_ "GenMsgBusNumber" BO_ 747 1;
+BA_ "GenMsgCycleTime" BO_ 747 100;
+BA_ "GenMsgBusNumber" BO_ 940 2;
+BA_ "GenMsgCycleTime" BO_ 940 100;
+BA_ "VFrameFormat" BO_ 940 14;
+BA_ "VFrameFormat" BO_ 732 0;
+BA_ "GenMsgBusNumber" BO_ 732 1;
+BA_ "GenMsgCycleTime" BO_ 732 20;
+BA_ "GenMsgBusNumber" BO_ 604 2;
+BA_ "GenMsgCycleTime" BO_ 604 20;
+BA_ "VFrameFormat" BO_ 604 14;
+BA_ "GenMsgBusNumber" BO_ 321 2;
+BA_ "GenMsgCycleTime" BO_ 321 10;
+BA_ "VFrameFormat" BO_ 321 14;
+BA_ "GenMsgBusNumber" BO_ 569 2;
+BA_ "GenMsgCycleTime" BO_ 569 20;
+BA_ "VFrameFormat" BO_ 569 14;
+BA_ "GenMsgBusNumber" BO_ 545 2;
+BA_ "GenMsgCycleTime" BO_ 545 20;
+BA_ "VFrameFormat" BO_ 545 14;
+BA_ "GenMsgBusNumber" BO_ 943 2;
+BA_ "GenMsgCycleTime" BO_ 943 100;
+BA_ "VFrameFormat" BO_ 943 14;
+BA_ "GenMsgBusNumber" BO_ 373 2;
+BA_ "GenMsgCycleTime" BO_ 373 10;
+BA_ "VFrameFormat" BO_ 373 14;
+BA_ "VFrameFormat" BO_ 1068 0;
+BA_ "GenMsgBusNumber" BO_ 1068 1;
+BA_ "GenMsgCycleTime" BO_ 1068 100;
+BA_ "VFrameFormat" BO_ 124 0;
+BA_ "GenMsgBusNumber" BO_ 124 1;
+BA_ "GenMsgCycleTime" BO_ 124 10;
+BA_ "GenMsgBusNumber" BO_ 1563 2;
+BA_ "GenMsgCycleTime" BO_ 1563 3000;
+BA_ "VFrameFormat" BO_ 1563 14;
+BA_ "GenMsgBusNumber" BO_ 340 2;
+BA_ "GenMsgCycleTime" BO_ 340 10;
+BA_ "VFrameFormat" BO_ 340 14;
+BA_ "GenMsgBusNumber" BO_ 353 2;
+BA_ "GenMsgCycleTime" BO_ 353 10;
+BA_ "VFrameFormat" BO_ 353 14;
+BA_ "GenMsgBusNumber" BO_ 329 2;
+BA_ "GenMsgCycleTime" BO_ 329 10;
+BA_ "VFrameFormat" BO_ 329 14;
+BA_ "GenMsgBusNumber" BO_ 274 2;
+BA_ "GenMsgCycleTime" BO_ 274 10;
+BA_ "VFrameFormat" BO_ 274 14;
+BA_ "GenMsgBusNumber" BO_ 540 2;
+BA_ "GenMsgCycleTime" BO_ 540 20;
+BA_ "VFrameFormat" BO_ 540 14;
+BA_ "GenMsgBusNumber" BO_ 94 2;
+BA_ "GenMsgCycleTime" BO_ 94 10;
+BA_ "VFrameFormat" BO_ 94 14;
+BA_ "VFrameFormat" BO_ 1070 0;
+BA_ "GenMsgBusNumber" BO_ 1070 1;
+BA_ "GenMsgCycleTime" BO_ 1070 100;
+BA_ "GenMsgBusNumber" BO_ 690 2;
+BA_ "GenMsgCycleTime" BO_ 690 10;
+BA_ "VFrameFormat" BO_ 690 14;
+BA_ "GenMsgBusNumber" BO_ 691 2;
+BA_ "GenMsgCycleTime" BO_ 691 10;
+BA_ "VFrameFormat" BO_ 691 14;
+BA_ "GenMsgBusNumber" BO_ 375 2;
+BA_ "GenMsgCycleTime" BO_ 375 10;
+BA_ "VFrameFormat" BO_ 375 14;
+BA_ "VFrameFormat" BO_ 1384 0;
+BA_ "GenMsgBusNumber" BO_ 1384 1;
+BA_ "GenMsgCycleTime" BO_ 1384 1000;
+BA_ "VFrameFormat" BO_ 1318 0;
+BA_ "GenMsgBusNumber" BO_ 1318 1;
+BA_ "GenMsgCycleTime" BO_ 1318 1000;
+BA_ "VFrameFormat" BO_ 967 0;
+BA_ "GenMsgBusNumber" BO_ 967 1;
+BA_ "GenMsgCycleTime" BO_ 967 100;
+BA_ "VFrameFormat" BO_ 1596 0;
+BA_ "GenMsgBusNumber" BO_ 1596 1;
+BA_ "GenMsgCycleTime" BO_ 1596 3000;
+BA_ "GenMsgBusNumber" BO_ 1104 2;
+BA_ "GenMsgCycleTime" BO_ 1104 100;
+BA_ "VFrameFormat" BO_ 1104 14;
+BA_ "GenMsgBusNumber" BO_ 1105 2;
+BA_ "GenMsgCycleTime" BO_ 1105 100;
+BA_ "VFrameFormat" BO_ 1105 14;
+BA_ "VFrameFormat" BO_ 879 0;
+BA_ "GenMsgBusNumber" BO_ 879 1;
+BA_ "GenMsgCycleTime" BO_ 879 100;
+BA_ "VFrameFormat" BO_ 1530 0;
+BA_ "GenMsgBusNumber" BO_ 1530 1;
+BA_ "GenMsgCycleTime" BO_ 1530 3000;
+BA_ "VFrameFormat" BO_ 168 0;
+BA_ "GenMsgBusNumber" BO_ 168 1;
+BA_ "GenMsgCycleTime" BO_ 168 10;
+BA_ "GenMsgBusNumber" BO_ 380 2;
+BA_ "GenMsgCycleTime" BO_ 380 10;
+BA_ "VFrameFormat" BO_ 380 14;
+BA_ "VFrameFormat" BO_ 1984 0;
+BA_ "GenMsgBusNumber" BO_ 1984 1;
+BA_ "GenMsgCycleTime" BO_ 1984 10;
+BA_ "VFrameFormat" BO_ 1765 0;
+BA_ "GenMsgBusNumber" BO_ 1765 1;
+BA_ "GenMsgCycleTime" BO_ 1765 3000;
+BA_ "GenMsgBusNumber" BO_ 1107 2;
+BA_ "GenMsgCycleTime" BO_ 1107 100;
+BA_ "VFrameFormat" BO_ 1107 14;
+BA_ "VFrameFormat" BO_ 806 0;
+BA_ "GenMsgBusNumber" BO_ 806 1;
+BA_ "GenMsgCycleTime" BO_ 806 40;
+BA_ "GenMsgBusNumber" BO_ 18400021 2;
+BA_ "GenMsgCycleTime" BO_ 18400021 10;
+BA_ "VFrameFormat" BO_ 18400021 14;
+BA_ "VFrameFormat" BO_ 18400022 0;
+BA_ "GenMsgBusNumber" BO_ 18400022 2;
+BA_ "GenMsgCycleTime" BO_ 18400022 10;
+BA_ "GenMsgBusNumber" BO_ 18400023 2;
+BA_ "GenMsgCycleTime" BO_ 18400023 100;
+BA_ "VFrameFormat" BO_ 18400023 14;
+BA_ "GenMsgBusNumber" BO_ 18400024 2;
+BA_ "GenMsgCycleTime" BO_ 18400024 10;
+BA_ "VFrameFormat" BO_ 18400024 14;
+BA_ "GenMsgBusNumber" BO_ 965 2;
+BA_ "GenMsgCycleTime" BO_ 965 100;
+BA_ "VFrameFormat" BO_ 965 14;
+BA_ "GenMsgBusNumber" BO_ 182 2;
+BA_ "GenMsgCycleTime" BO_ 182 10;
+BA_ "VFrameFormat" BO_ 182 14;
+BA_ "GenMsgBusNumber" BO_ 707 2;
+BA_ "GenMsgCycleTime" BO_ 707 20;
+BA_ "VFrameFormat" BO_ 707 14;
+BA_ "GenMsgBusNumber" BO_ 1366 2;
+BA_ "GenMsgCycleTime" BO_ 1366 3000;
+BA_ "VFrameFormat" BO_ 1366 14;
+BA_ "GenMsgBusNumber" BO_ 1382 2;
+BA_ "GenMsgCycleTime" BO_ 1382 3000;
+BA_ "VFrameFormat" BO_ 1382 14;
+BA_ "GenMsgBusNumber" BO_ 1393 2;
+BA_ "GenMsgCycleTime" BO_ 1393 3000;
+BA_ "VFrameFormat" BO_ 1393 14;
+BA_ "GenMsgBusNumber" BO_ 1401 2;
+BA_ "GenMsgCycleTime" BO_ 1401 3000;
+BA_ "VFrameFormat" BO_ 1401 14;
+BA_ "GenMsgBusNumber" BO_ 547 2;
+BA_ "GenMsgCycleTime" BO_ 547 20;
+BA_ "VFrameFormat" BO_ 547 14;
+BA_ "GenMsgBusNumber" BO_ 548 2;
+BA_ "GenMsgCycleTime" BO_ 548 20;
+BA_ "VFrameFormat" BO_ 548 14;
+BA_ "GenMsgBusNumber" BO_ 1109 2;
+BA_ "GenMsgCycleTime" BO_ 1109 100;
+BA_ "VFrameFormat" BO_ 1109 14;
+BA_ "VFrameFormat" BO_ 1081 0;
+BA_ "GenMsgBusNumber" BO_ 1081 1;
+BA_ "GenMsgCycleTime" BO_ 1081 100;
+BA_ "GenMsgBusNumber" BO_ 550 2;
+BA_ "GenMsgCycleTime" BO_ 550 20;
+BA_ "VFrameFormat" BO_ 550 14;
+BA_ "GenMsgBusNumber" BO_ 427 2;
+BA_ "GenMsgCycleTime" BO_ 427 10;
+BA_ "VFrameFormat" BO_ 427 14;
+BA_ "VFrameFormat" BO_ 431 0;
+BA_ "GenMsgBusNumber" BO_ 431 1;
+BA_ "GenMsgCycleTime" BO_ 431 10;
+BA_ "VFrameFormat" BO_ 165 0;
+BA_ "GenMsgBusNumber" BO_ 165 1;
+BA_ "GenMsgCycleTime" BO_ 165 10;
+BA_ "GenMsgBusNumber" BO_ 330 2;
+BA_ "GenMsgCycleTime" BO_ 330 10;
+BA_ "VFrameFormat" BO_ 330 14;
+BA_ "GenMsgBusNumber" BO_ 100 2;
+BA_ "GenMsgCycleTime" BO_ 100 10;
+BA_ "VFrameFormat" BO_ 100 14;
+BA_ "GenMsgBusNumber" BO_ 995 2;
+BA_ "GenMsgCycleTime" BO_ 995 100;
+BA_ "VFrameFormat" BO_ 995 14;
+BA_ "VFrameFormat" BO_ 354 0;
+BA_ "GenMsgBusNumber" BO_ 354 1;
+BA_ "GenMsgCycleTime" BO_ 354 10;
+BA_ "VFrameFormat" BO_ 685 0;
+BA_ "GenMsgBusNumber" BO_ 685 1;
+BA_ "GenMsgCycleTime" BO_ 685 20;
+BA_ "VFrameFormat" BO_ 687 0;
+BA_ "GenMsgBusNumber" BO_ 687 1;
+BA_ "GenMsgCycleTime" BO_ 687 20;
+BA_ "VFrameFormat" BO_ 1414 0;
+BA_ "GenMsgBusNumber" BO_ 1414 1;
+BA_ "GenMsgCycleTime" BO_ 1414 3000;
+BA_ "GenMsgBusNumber" BO_ 1274 2;
+BA_ "GenMsgCycleTime" BO_ 1274 500;
+BA_ "VFrameFormat" BO_ 1274 14;
+BA_ "VFrameFormat" BO_ 374 0;
+BA_ "GenMsgBusNumber" BO_ 374 1;
+BA_ "GenMsgCycleTime" BO_ 374 10;
+BA_ "GenMsgBusNumber" BO_ 163 2;
+BA_ "GenMsgCycleTime" BO_ 163 10;
+BA_ "VFrameFormat" BO_ 163 14;
+BA_ "VFrameFormat" BO_ 650 0;
+BA_ "GenMsgBusNumber" BO_ 650 1;
+BA_ "GenMsgCycleTime" BO_ 650 20;
+BA_ "GenMsgBusNumber" BO_ 1291 2;
+BA_ "GenMsgCycleTime" BO_ 1291 1000;
+BA_ "VFrameFormat" BO_ 1291 14;
+BA_ "GenMsgBusNumber" BO_ 704 2;
+BA_ "GenMsgCycleTime" BO_ 704 100;
+BA_ "VFrameFormat" BO_ 704 14;
+BA_ "GenMsgBusNumber" BO_ 723 2;
+BA_ "GenMsgCycleTime" BO_ 723 10;
+BA_ "VFrameFormat" BO_ 723 14;
+BA_ "GenMsgBusNumber" BO_ 699 2;
+BA_ "GenMsgCycleTime" BO_ 699 100;
+BA_ "VFrameFormat" BO_ 699 14;
+BA_ "GenMsgBusNumber" BO_ 1183 2;
+BA_ "GenMsgCycleTime" BO_ 1183 3000;
+BA_ "VFrameFormat" BO_ 1183 14;
+BA_ "GenMsgBusNumber" BO_ 1634 2;
+BA_ "GenMsgCycleTime" BO_ 1634 500;
+BA_ "VFrameFormat" BO_ 1634 14;
+BA_ "GenMsgBusNumber" BO_ 1173 2;
+BA_ "GenMsgCycleTime" BO_ 1173 100;
+BA_ "VFrameFormat" BO_ 1173 14;
+BA_ "SystemSignalLongSymbol" SG_ 462 EBA_OutputRodActuatorPosition_AD "EBA_OutputRodActuatorPosition_AD2";
+BA_ "SystemSignalLongSymbol" SG_ 340 CooperativeRegenerativeTorqueReq "CooperativeRegenerativeTorqueReq_2";
+BA_ "SystemSignalLongSymbol" SG_ 340 Fr_RequestedWheelTorqueAfterProc "Fr_RequestedWheelTorqueAfterProc_2";
+BA_ "SystemSignalLongSymbol" SG_ 340 Rr_RequestedWheelTorqueAfterProc "Rr_RequestedWheelTorqueAfterProc_2";
+BA_ "SystemSignalLongSymbol" SG_ 94 Rr_ElecBrakeWheelsTorqueApplied_ "Rr_ElecBrakeWheelsTorqueApplied_2";
+BA_ "SystemSignalLongSymbol" SG_ 18400021 p_BrakingPressure_Primary_Circui "p_BrakingPressure_Primary_Circuit";
+BA_ "SystemSignalLongSymbol" SG_ 18400021 p_BrakingPressure_Secondary_Circ "p_BrakingPressure_Secondary_Circuit";
+BA_ "SystemSignalLongSymbol" SG_ 18400022 p_SSF_ADASBrakingPressureHoldThr "p_SSF_ADASBrakingPressureHoldThreshold";
+BA_ "SystemSignalLongSymbol" SG_ 18400022 p_SSF_BrakingPressureHoldThresho "p_SSF_BrakingPressureHoldThreshold";
+BA_ "SystemSignalLongSymbol" SG_ 182 LongitudinalControlStatus_VDC_RD "LongitudinalControlStatus_VDC_RD2";
+BA_ "SystemSignalLongSymbol" SG_ 707 ParkingBrakeMalfunctionStatus_RD "ParkingBrakeMalfunctionStatus_RD2";
+BA_ "SystemSignalLongSymbol" SG_ 1109 DynamicBrakingInProgressForEPB_v "DynamicBrakingInProgressForEPB_v2";
+BA_ "SystemSignalLongSymbol" SG_ 163 ASRDynamicWheelTorqueRequest_v2_ "ASRDynamicWheelTorqueRequest_v2_2";
+VAL_ 1332 AIRBAGMalfunction 1 "AIRBAG system malfunction" 0 "no AIRBAG system malfunction" ;
+VAL_ 32 AirbagCrashOrder_v3 1 "INVALID" 15 "MediumCrash" 0 "None" 47 "RearCrash" 31 "ViolentCrash" ;
+VAL_ 464 ADmodeStatus_RD 0 "AD/RPK OFF" 4 "AD/RPK OFF + TD or MRM in regula" 2 "AD1 L3 regulation" 6 "AD1 L3 regulation + TD or MRM in" 1 "AD2 L2 regulation" 5 "AD2 L2 regulation + TD or MRM in" 3 "RPK regulation" 7 "RPK regulation + TD or MRM in re" ;
+VAL_ 664 HapticBraking_Level_2 0 "Level 1" 1 "Level 2" 2 "Level 3" 3 "Level 4" 4 "Level 5" 7 "Not Used" ;
+VAL_ 664 HapticBraking_Request_2 0 "Not Requested" 1 "Requested" ;
+VAL_ 974 ParkingBrakeBindingRequest_RD 0 "No parking brake binding request" 1 "Parking brake binding requested" ;
+VAL_ 349 AEB_BrakeWheelTorqueOrder3 4 "Brake Torque AEBS Maximum" 3 "Brake Torque AEBS city" 1 "Brake Torque AEBS moderate" 2 "Brake Torque AEBS strong" 0 "No Brake Request" 6 "Not Used" 7 "unavailable" ;
+VAL_ 349 AEB_BrakeWheelTorqueRequest3 32767 "unavailable" ;
+VAL_ 159 AEB_BrakeTorqueGain2 31 "unavailable" ;
+VAL_ 159 AEB_BrakeTorqueGainOrder2 3 " Unavailable Value " 2 "Brake Gain ON " 1 "Brake Gain Off " 0 "Reserved for Safety" ;
+VAL_ 159 AEB_BrakeWheelTorqueOrder2 4 "Brake Torque AEBS Maximum" 3 "Brake Torque AEBS city" 1 "Brake Torque AEBS moderate" 2 "Brake Torque AEBS strong" 0 "No Brake Request" 6 "Not used" 7 "unavailable" ;
+VAL_ 159 AEB_BrakeWheelTorqueRequest2 32767 "unavailable" ;
+VAL_ 159 HBAThresholdRequest2 1 "HBA low threshold" 0 "HBA standard threshold" ;
+VAL_ 159 HydraulicPreFillRequest2 0 "Prefill NOT Requested" 1 "Prefill Requested " ;
+VAL_ 286 TorqueConverterState 2 "locked-up converter" 1 "sliding converter" 3 "unavailable" 0 "unlocked converter" ;
+VAL_ 303 GearLeverPosition_v2_2 8 "Brake" 7 "Confirmed_lever_pos." 3 "D" 6 "Ds" 5 "L" 4 "Manual_Mode" 2 "N" 15 "Not_available" 0 "P" 1 "R" ;
+VAL_ 303 InputShaftRevolution_2 65535 "UNavailable" ;
+VAL_ 303 OutputShaftRevolution_2 65535 "Unavailable" ;
+VAL_ 1100 AT_ParkPositionCommandState_2 1 "AT park position command engaged" 2 "AT park position command not eng" 0 "Not Used" 3 "Unvailable Value" ;
+VAL_ 1100 RST_LaunchControlReady_2 2 "Launch Control Active" 1 "Launch Control Not Active" 0 "Launch Control Not Available" 3 "reserved" ;
+VAL_ 1100 TransmRangeEngaged_Current_2 1 "10th range" 7 "1st range" 3 "2nd range" 6 "3rd range" 5 "4th range" 4 "5th range" 2 "6th range" 15 "7th range" 0 "8th range" 1 "9th range" 1 "AT in limphome" 1 "CVT in continuous mode" 1 "Not used" 8 "declutched at rest" 1 "neutral or parking" 1 "reverse" ;
+VAL_ 1100 TransmRangeEngaged_Target_2 1 "10th range" 7 "1st range" 3 "2nd range" 6 "3rd range" 5 "4th range" 4 "5th range" 2 "6th range" 15 "7th range" 0 "8th range" 1 "9th range" 1 "AT in limphome" 1 "CVT in continuous mode" 1 "Not used" 8 "declutched at rest" 1 "neutral or parking" 1 "reverse" ;
+VAL_ 336 SubAD_AEB_BrakeWheelTorqueOrder 4 "Brake Torque AEBS Maximum" 3 "Brake Torque AEBS city" 1 "Brake Torque AEBS moderate" 2 "Brake Torque AEBS strong" 0 "No Brake Request" 6 "Not used" 7 "unavailable" ;
+VAL_ 336 SubAD_AEB_BrakeWheelTorqueReq 32767 "Unavailable" ;
+VAL_ 1506 HDC_Activation 0 "HDC available" 1 "HDC disable" 3 "Unavailbale" 2 "not used" ;
+VAL_ 1143 DriverDoorState 1 "Driver_door_closed" 2 "Driver_door_open" 3 "Not_used" 0 "Unvailable_Value" ;
+VAL_ 1143 DriverSeatBeltFailureState 2 "Driver Seat Belt OK" 0 "No Monitoring" 3 "Not used" 1 "Supposed Driver Seat Belt Failur" ;
+VAL_ 1143 DriverStopRequestWhileBattOff 5 "Engine stop requested by driver " 7 "Reserved for safety" 0 "Unavailable" 2 "no engine stop requested by driv" ;
+VAL_ 1143 PassengerDoorState 3 "Not_used" 1 "Passenger_door_closed" 2 "Passenger_door_open" 0 "Unavailable_value" ;
+VAL_ 1143 StartingMode_BCM 2 "Ignition Request" 1 "No request" 0 "Powertrain Stopped RStarting Req" 3 "Starting Request" ;
+VAL_ 1145 ProbableCustomerFeedBackNeed 1 "Customer feedback needed" 0 "Customer feedback probably not n" ;
+VAL_ 1146 BrakeInfoStatus 4 "Brake_pedal_confirmed_pressed" 1 "Brake_pedal_not_pressed" 2 "Brake_pedal_pressed" 6 "Not_used" 7 "unavailable" ;
+VAL_ 1146 ClutchSwitchMaximumTravel 1 "Clutch_pedal_not_pressed_at_maxi" 2 "Clutch_pedal_pressed_at_maximum" 0 "Not_used" 3 "Unavailable" ;
+VAL_ 1146 ClutchSwitchMinimumTravel 1 "Clutch_pedal_not_pressed" 2 "Clutch_pedal_pressed_at_minimum" 0 "Not_used" 3 "Unavailable" ;
+VAL_ 1146 DeliveryModeInformation_v2 3 "Not used" 0 "customer mode" 1 "delivery mode level 1" 2 "delivery mode level 2" ;
+VAL_ 1146 DriveModeRequest 1 "Eco_mode_requested" 0 "Normal_mode_requested" 6 "Not_used" 3 "Race_mode_requested_(ESC_off)_fo" 2 "Sport_mode_requested" 7 "Unavailable" ;
+VAL_ 1146 DriverDoorStatusSupposedFailure 1 "Supposed_driver's_door_failure" 0 "no_supposed_driver_door_failure" ;
+VAL_ 1146 DriverSafetyBeltBuckleState 0 "SB Not monitored" 2 "SB fastened" 1 "SB unfastened" 3 "Unavailable" ;
+VAL_ 1146 EngineStopDriverRequestValid 0 "Not Valid" 1 "Valid" ;
+VAL_ 1146 EngineStopDriverRequested 0 "no engine stop requested by driv" 1 "nominal engine stop requested by" ;
+VAL_ 1146 GADE_v2 2 "ALL_fault,_Disable_DiagMuxDTC" 3 "ALL_fault,_Enable_DiagMuxDTC" 1 "AutoACC_fault,_Disable_DiagMuxDT" 4 "FOTA switch fault, Disable DiagM" 6 "Not_used" 0 "Sleep_or_Crank_fault,_Disable_Di" 7 "Unavailable" ;
+VAL_ 1146 TrailerPresence 0 "no trailer detected" 1 "trailer detected" ;
+VAL_ 1146 VehicleStates 3 "AutoACC__-_BatTempoLevel" 8 "AutoStart" 2 "CutoffPending" 9 "EngineSystemStop" 5 "IgnitionLevel" 14 "Not_used" 7 "PowertrainRunning" 0 "Sleeping" 6 "StartingInProgress" 15 "Unavailable" ;
+VAL_ 944 RPES_Status 7 "Not Used" 0 "Not available" 4 "RPES_EngineRunning" 1 "RPES_Forbidden" 5 "RPES_Interrupt" 3 "RPES_StartInProgress" 2 "RPES_Wait_For_Req" ;
+VAL_ 1315 AbsoluteTimeSince1rstIgnition 16777215 "Unavailable" ;
+VAL_ 367 Global_ADmodeStatus_2 2 "AD1 L3 regulation" 1 "AD2 L2 regulation" 6 "Not used" 3 "RPK regulation" 0 "System OFF" 7 "unavailable" ;
+VAL_ 367 PathChangeRequest_2 0 "No Request" 1 "Request" ;
+VAL_ 1518 MultiDriveMode_VDC_v2_2 0 "Mode_VDC_1_(Normal)" 1 "Mode_VDC_2" 2 "Mode_VDC_3_(Sport)" 3 "Mode_VDC_4_(Off)" 4 "Mode_VDC_5" 5 "Mode_VDC_6" 6 "Mode_VDC_7" 7 "Unavailable" ;
+VAL_ 135 BSB_BrakeTorqueRequest_2 8191 "Unavailable" ;
+VAL_ 135 BrakeLampCancelRequest_2 0 "No request" 1 "Request" ;
+VAL_ 135 BrakeLimitationInhibitRequest_2 1 "Inhibition of the brake desceler" 0 "No inhibition of the descelerati" ;
+VAL_ 135 CRC_CDM_A110_2 2 "INVALID" ;
+VAL_ 135 EPKB_Request_ByCDM 1 "Apply request" 0 "No request" 3 "Not used" 2 "Release request" ;
+VAL_ 135 GlobalBrakeTorqueOrder_2 2 "Not used" 3 "Unavailable" 1 "brake torque request" 0 "no brake torque request" ;
+VAL_ 135 GlobalBrakeTorqueRequest_2 16383 "Unavailable" ;
+VAL_ 135 GlobalYawMomentOrder_2 0 "No_yaw_moment_request" 1 "Yaw_moment_request" ;
+VAL_ 135 GlobalYawMomentRequest_2 16383 "Unavailable" ;
+VAL_ 135 IDM_StandStillRequest_2 0 "No request" 3 "Not used" 1 "Request not using release condit" 2 "Request using release condition " ;
+VAL_ 135 ParkingBrakeBindingRequest_2 0 "No parking brake binding request" 1 "Parking brake binding requested" ;
+VAL_ 135 ParkingBrakeReleaseRequest_2 0 "No request" 1 "Release request" ;
+VAL_ 1116 CDM_TJPfailure 1 "Abnormal" 0 "Normal" ;
+VAL_ 576 CDM_FaultType 0 "No failure" 1 "failure" ;
+VAL_ 576 SSA_SwitchState 0 "SSA Switch OFF" 1 "SSA Switch ON" ;
+VAL_ 576 ePedal_SSAbrakeWheelTorqueReq 255 "Unavailable" ;
+VAL_ 576 ePedal_StandStillRequest 0 "No request" 1 "ePedal standstill request" ;
+VAL_ 576 ePedal_StopLampRequest 0 "No request" 1 "Stop lamps ON request" ;
+VAL_ 1293 RST_MultiDriveBrakePedalFeel 0 "Pedal tuning 1" 1 "Pedal tuning 2" 2 "Pedal tuning 3" 3 "unavailable" ;
+VAL_ 507 Global_StandStillRequest_ByCDM 1 "ADAS Hold Requested" 3 "ADAS Standstill impossible" 2 "Launch Requested" 0 "No request " ;
+VAL_ 114 BrakePedalPositionDistance 4095 "Unavailable" ;
+VAL_ 114 EBA_BrakePedalApplied 2 "Brake_pedal_applied" 1 "Brake_pedal_not_applied" 3 "Not_used" 0 "Unavailable" ;
+VAL_ 114 ExternalBrakeRequestPriority 0 "Driver_brake_dominates" 1 "External_brake_dominates" ;
+VAL_ 114 ExternalBrakeStatus 0 "Not initialized" 1 "Not ready" 3 "Not used" 2 "Ready" ;
+VAL_ 526 EBA_DiagActive 1 "EBA_diagnosis_active" 0 "EBA_diagnosis_not_active" ;
+VAL_ 526 RearPressureReductionStatus 5 "Abort" 2 "Hold" 4 "Hold_low_pressure" 7 "Not_used" 0 "Passive" 3 "Suction" 1 "preload" ;
+VAL_ 366 ActuatorCircuitStatus 1 "With pressure" 0 "Without pressure" ;
+VAL_ 366 DriverTargetBrakingForce 16383 "Unavailable" ;
+VAL_ 366 DriverTargetBrakingInfo 1 "Normal" 0 "Not Initialized" 2 "Not used" 3 "Unavailable" ;
+VAL_ 366 DriverTargetBrakingStatus 1 "Enable" 0 "Not enable" ;
+VAL_ 366 LongitudinalControlForce_EBA 8191 "Unavailable" ;
+VAL_ 366 PotentialReductionPressureStatus 1 "Enable" 0 "Not enable" ;
+VAL_ 939 EBA_MinorFailure 1 "HBC full support request" 0 "No HBC support request" ;
+VAL_ 939 HBCrequest_RCY 1 "DLC failure alert request" 0 "No Alert" ;
+VAL_ 462 BrakePedalPositionDistance_AD2 4095 "Unavailable" ;
+VAL_ 462 BrakePedalPosition_AD2 4095 "Unavailable" ;
+VAL_ 462 EBA_BrakePedalApplied_AD2 2 "Brake_pedal_applied" 1 "Brake_pedal_not_applied" 3 "Not_used" 0 "Unavailable" ;
+VAL_ 462 ExternalBrakeRequestPriority_AD2 0 "Driver_brake_dominates" 1 "External_brake_dominates" ;
+VAL_ 462 ExternalBrakeStatus_AD2 0 "Not initialized" 1 "Not ready" 3 "Not used" 2 "Ready" ;
+VAL_ 1119 EngineCoolantTemp_2 255 "INVALID" ;
+VAL_ 1119 IdleStopBrakeHoldFunctionReq_2 1 "Brake_Hold_request_by_IS" 0 "No_request" ;
+VAL_ 116 StopAutoPhase_2 1 "AutoStart" 3 "AutophaseAborted" 2 "IdleStop" 4 "InjectionStopped" 0 "NotInAutoPhase" 6 "ReflexStart" 5 "StartByInjectionOnly" 7 "Unavailable" ;
+VAL_ 116 TorqueRequestStatus_2 1 "exact_trq_req_cant_be_achieved" 0 "normal" 3 "torque_request_can_not_be_achiev" 2 "trans_sta_prevents_trq_req_real" ;
+VAL_ 136 ASR_MSRAcknowledgement_2 1 "Consistent" 0 "Not_consistent" ;
+VAL_ 136 ECM_SailingRequest_2 5 "Coasting_Stop" 4 "Entry_Coasting" 1 "Entry_Sailing" 0 "Normal_Driving" 14 "Not_used" 6 "Relaunch" 2 "Sailing_Idle" 3 "Sailing_Stop" 8 "Stop_auto" 7 "Synchro" 15 "Unavailable" ;
+VAL_ 117 EngineStopRequestOrigin_2 3 "Eng_stopped_by_normal_driver_req" 2 "Eng_stopped_by_normal_system_req" 4 "Engine_stopped_by_emergency_req" 1 "Engine_stopped_by_other_causes" 0 "No_engine_stop_req" 7 "Not_used" ;
+VAL_ 117 MeanEffectiveTorque_2 4095 "Unavailable" ;
+VAL_ 117 PowerTrainStatus_2 2 "Powertrain_Running" 3 "Powertrain_Starting" 0 "Powertrain_Stopped" 1 "Reserved" ;
+VAL_ 1137 CruiseControlStatus 5 "CC_ON_and_(_awaiting__or_suspend" 4 "CC_active" 6 "CC_requested_and_in_failure" 0 "Cru._Cont_(CC)_-_Sp_Lim_(SL)_OFF" 1 "SL_active" 2 "SL_on_and_(awaiting_or_suspended" 3 "SL_requested_and_in_failure" 7 "Vehicle_not_equipped_with_CC/SL" ;
+VAL_ 1137 Maintenance_Mode_Status 1 "no_request" 0 "not_used" 2 "request" 3 "unavailable" ;
+VAL_ 1139 Rr_TransmRangeEngaged_Current 1 "1st range" 2 "2nd range" 0 "declutched at rest" 3 "unavailable" ;
+VAL_ 1139 Rr_TransmRangeEngaged_Target 1 "1st range" 2 "2nd range" 0 "declutched at rest" 3 "unavailable" ;
+VAL_ 747 DiffLockControllerFailure 1 "Diff Lock Controller Failure" 0 "Diff Lock Controller Operational" ;
+VAL_ 747 DiffLockOperatingFlag 0 "Diff Lock Not Operating" 1 "Diff Lock operating" ;
+VAL_ 747 DiffLockSwitching_EDL 0 "Diff Lock Switching OFF" 1 "Diff Lock switching ON" ;
+VAL_ 940 APB_BrakePedalRequestDisplay_2 3 "Brk_pdl_Req_mess_display_re-emis" 1 "Brk_pedal_Req_message_display" 0 "No_BrkPdlReqMess_display" 2 "Not Used" ;
+VAL_ 940 DynamicBrakingDisplay_2 1 "Dynamic braking display request" 0 "No dynamic braking display Reque" ;
+VAL_ 940 EPB_BindingStatusDisplay_2 1 "APB_is_tightened" 2 "APB_is_tightened_re-emission" 3 "APB_state_is_unknown" 0 "No_display_req_(APB_is_released)" 7 "Unavailable" ;
+VAL_ 940 EPB_MalfunctionDisplay_2 2 "Major_EPB_default" 1 "Minor_EPB_default" 0 "No_EPB_default" 3 "Unavailable" ;
+VAL_ 940 EPB_NotTightenedWarning_2 0 " No EPB not tightened warning di" 1 "EPB not tightened warning displa" ;
+VAL_ 940 EPB_SwitchState_2 1 "Apply_cmd_request" 0 "Neutral" 2 "Release_cmd_request" 3 "Unavailable" ;
+VAL_ 940 EPB_TightenRequestUnavailable_2 0 "No_warning_request" 3 "Warning_re-emission_request" 1 "Warning_request" ;
+VAL_ 940 NotImmobilizedVehicleWarning_2 0 "No warning Vehicle not immobiliz" 1 "Warning Vehicle not immobilized " ;
+VAL_ 940 TakeOffInhibitionWarning_2 0 "No_take_off_inhib_warn_req" 3 "Take_off_inhib_warn_re-emis_req" 1 "Take_off_inhib_warn_req" 2 "Unavailable" ;
+VAL_ 732 ParkingBrakeBindingStatus_RD 2 "Not_used" 3 "Unavailable" 0 "brake_released" 1 "brake_tightened" ;
+VAL_ 604 ParkingBrakeBindingStatus_2 2 "Not_used" 3 "Unavailable" 0 "brake_released" 1 "brake_tightened" ;
+VAL_ 604 ParkingBrakeMalfunctionStatus_2 0 " No parking brake malfunction" 1 "Parking brake malfunction" ;
+VAL_ 604 ParkingBrakeRequestInProgress_2 2 "Brake release request in progres" 1 "Brake tightening request in prog" 3 "Not used" 0 "no parking brake request in prog" ;
+VAL_ 321 EPS_AngleSensor 262143 "unavailable" ;
+VAL_ 545 ETSMalfunction_2 1 "malfunction__(ETS_can_not_work)" 0 "no_malfuction" ;
+VAL_ 545 ETS_InternalOperationMode 3 "4_Lo_Mode" 0 "automatic_selection_mode" 2 "fixed_2WD_mode" 1 "fixed_4WD_mode" ;
+VAL_ 943 ETCModeCustomerRequest_2 2 "2WD" 3 "4L" 0 "AUTO" 1 "LOCK" 6 "Not used" 7 "Unavailable" ;
+VAL_ 943 ETS_RearDiffLockMalfunction_2 0 "No malfunction" 1 "malfunction" ;
+VAL_ 943 ETS_RearDiffLockStatus_2 2 "Lock" 1 "Locking/Unlocking" 3 "Unavailable" 0 "Unlock" ;
+VAL_ 373 FWS_Status_2 2 "Controlled mode" 6 "Not Used" 3 "Permanent failure" 1 "Standby mode" 0 "Temporarily failure" 7 "Unavailable" ;
+VAL_ 373 WS_AnglePosition_2 1023 "Unavailable" ;
+VAL_ 1068 AnticipatedElectricGearChange 1 "Change in progress with regenera" 0 "No Change" ;
+VAL_ 1068 VehicleTractionMode 7 "Unavailable_value" 1 "Vehicle_in_charge" 2 "Vehicle_in_full_electric_mode" 3 "Vehicle_in_hybrid_mode" 4 "Vehicle_in_thermic_mode" 0 "Vehicle_not_in_traction_mode" ;
+VAL_ 124 ElecBrakeTorqueActuatorStatus 1 "EVC_Available_as_an_actuator" 2 "EVC_Not_available_as_an_actuator" 3 "Not_Used" 0 "Unavailable" ;
+VAL_ 124 ElecBrakeWheelMaxPotentialTorque 8191 "Unavailable" ;
+VAL_ 124 ElecBrakeWheelTorqueApplied 8191 "Unavailable" ;
+VAL_ 124 ElecMachineSpeed 4095 "Unavailable" ;
+VAL_ 124 RE_ElecMachineSpeed 4095 "Unavailable" ;
+VAL_ 1563 DriveCycle 1 "General Denominatar count reques" 0 "No request" ;
+VAL_ 1563 IUPR_ColdStartDenom 3 "Not used" 2 "freeze denominator" 1 "increase denominator" 0 "no increase denominator" ;
+VAL_ 1563 IUPR_EvapDenom 3 "Not used" 2 "freeze denominator" 1 "increase denominator" 0 "no increase denominator" ;
+VAL_ 1563 IUPR_GeneralDenom 3 "Not used" 2 "freeze denominator" 1 "increase denominator" 0 "no increase denominator" ;
+VAL_ 1563 IgnCycleCount_v2_2 1 "Ignition Cycle count request" 0 "No Request" ;
+VAL_ 340 CooperativeRegenerativeTorqueReq 1 "Cooperative regenerative torque" 0 "Friction brake torque" ;
+VAL_ 340 Fr_RequestedWheelTorqueAfterProc 32767 "Unavailable" ;
+VAL_ 340 Fr_TorqueRequestStatus_2 0 "Normal" 1 "Torque request can not be achiev" ;
+VAL_ 340 Rr_RequestedWheelTorqueAfterProc 32767 "Unavailable" ;
+VAL_ 340 Rr_TorqueRequestStatus_2 0 "Normal" 1 "Torque request can not be achiev" ;
+VAL_ 353 Fr_EstimatedPWTWheelTorque_2 32767 "Unavailable" ;
+VAL_ 353 Rr_ElecBrakeTorqueActuatorStatus 0 "Electrical brake function Not Ok" 1 "Electrical brake function Ok" 2 "Not Used" 3 "Unavailable" ;
+VAL_ 353 Rr_EstimatedPWTWheelTorque_2 32767 "Unavailable" ;
+VAL_ 274 TargetCoastWheelTorque_2 8191 "Unavailable" ;
+VAL_ 540 TorqueConverterState_SF 3 "Unavailable" 2 "locked-up converter" 1 "sliding converter" 0 "unlocked converter" ;
+VAL_ 540 ePedalStatus 0 "e-Pedal OFF" 1 "e-Pedal ON" ;
+VAL_ 94 Rr_ASR_MSRacknowledgement_2 1 "Data received consistent" 0 "Data received not consistent" ;
+VAL_ 94 Rr_ElecBrakeWheelMaxPotTorque_2 8191 "Unavailable" ;
+VAL_ 94 Rr_ElecBrakeWheelsTorqueApplied_ 8191 "Unavailable" ;
+VAL_ 1070 EngineCalculatedLoad 511 "INVALID" ;
+VAL_ 1070 OBDPrmtDelCdn 1 "OBD PDTC Delete Condition detete" 0 "OBD PDTC Delete Condition not de" ;
+VAL_ 1070 OBDWarmUpCycleDet 1 "Warm Up Cycle is completed" 0 "Warm Up Cycle is not completed" ;
+VAL_ 1070 OBD_Ready_On 0 "HEV system is in the state of No" 1 "HEV system is in the state of Re" ;
+VAL_ 690 Rr_L_ASR_MSRacknowledgement 1 "Data received consisitent" 0 "Data received not consistent" ;
+VAL_ 690 Rr_L_EstimatedPWTWheelTorque 32767 "Unavailable" ;
+VAL_ 690 Rr_L_ReqWheelTorqueAfterProc 32767 "Unavailable" ;
+VAL_ 690 Rr_L_TorqueRequestStatus 0 "Normal" 1 "Torque request can not be achiev" ;
+VAL_ 691 Rr_R_ASR_MSRacknowledgement 1 "Data received consisitent" 0 "Data received not consistent" ;
+VAL_ 691 Rr_R_EstimatedPWTWheelTorque 32767 "Unavailable" ;
+VAL_ 691 Rr_R_ReqWheelTorqueAfterProc 32767 "Unavailable" ;
+VAL_ 691 Rr_R_TorqueRequestStatus 0 "Normal" 1 "Torque request can not be achiev" ;
+VAL_ 375 Rr_L_ElecMachineSpeed 4095 "Unavailable" ;
+VAL_ 375 Rr_R_ElecMachineSpeed 4095 "Unavailable" ;
+VAL_ 1384 CurrentSpecificUserState 2 "Beginner mode" 0 "No specific mode" 3 "Not used" 1 "Valet mode" ;
+VAL_ 1318 VehicleSpeedbyGPS 16383 "INVALID" ;
+VAL_ 967 TPW_ResetDriverRequest2 3 "Not_used" 1 "TPW_Reset_driver_NOT_requested" 2 "TPW_Reset_driver_requested" 0 "Unavailable" ;
+VAL_ 1596 HDC_ActivationRequest2 0 "HDC not requested" 1 "HDC requested" 2 "Reset requested" 3 "Unavailable" ;
+VAL_ 1596 TCS_DeactivationRequest2 3 "Not used" 0 "Not_used" 2 "TCS activation request" 1 "TCS deactivation request" ;
+VAL_ 1104 RawFuelGaugeResistance_2 1023 "Unavailable" ;
+VAL_ 1104 WelcomeSequenceStatus 3 "Sequence Done" 2 "Sequence in progress" 1 "Sequence not Started" 0 "Unavailable" ;
+VAL_ 1105 DayNightForBacklights_2 0 "Day" 2 "Night" 1 "Twilight" 3 "Unavailable" ;
+VAL_ 1105 ExternalTemperature_2 511 "Unavailable" ;
+VAL_ 1105 LowBrakeFluidLevelStatus_2 511 "Brake system malfunction" 511 "No brake system malfunction" 511 "Not used" 511 "Unavailable" ;
+VAL_ 1105 ParkingBrakeStatus_2 2 "Automatic or manual Parking brak" 1 "Automatic or manual Parking brak" 0 "Not used" 3 "Unavailable" ;
+VAL_ 1105 TPW_ResetDriverRequest 3 "Not used" 1 "TPW Reset driver NOT requested" 2 "TPW Reset driver requested" 0 "Unavailable" ;
+VAL_ 879 MemorizedDistanceTotalizer 268435455 "INVALID" ;
+VAL_ 1530 VDCactivationRequest 0 "No_request" 3 "Reset_request" 1 "VDC_function_activation" 2 "VDC_function_deactivation" ;
+VAL_ 168 SteeringWheelAngleRaw 32767 "Unavailable" ;
+VAL_ 168 SwaSensorFailCode 31 "INVALID" ;
+VAL_ 168 SwaSensorInternalStatus 5 "calibrated,_initialised" 4 "calibrated,_not_initialised" 2 "fault" 1 "not_calibrated,_indexed" 0 "not_calibrated,_not_indexed" 7 "reserved" ;
+VAL_ 380 SteeringWheelAngleRaw_EPS 32767 "unavailable" ;
+VAL_ 380 SwaSensorInternalStatus_EPS 4 "calibrated, not initialised" 5 "calibrated,initialised" 2 "fault" 1 "not calibrated, indexed" 0 "not calibrated, not indexed" 7 "reserved" ;
+VAL_ 1107 IgnitionSupplyConfirmation_2 0 "no primary ignition supply" 1 "primary ignition supply on" ;
+VAL_ 1107 NeutralContact_2 4 "Not used" 1 "neutral contact not reached" 2 "neutral contact reached" 6 "unavailable" ;
+VAL_ 1107 RearGearEngaged_2 4 "Not used" 2 "Rear Gear Engaged" 1 "Rear Gear not Engaged" 6 "unavailable" ;
+VAL_ 18400021 IS_HBA_Active 0 "False" 1 "True" ;
+VAL_ 18400021 IS_HBB_Active 0 "False" 1 "True" ;
+VAL_ 18400021 IS_HBC_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_EBP_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_FBS_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_OverSteerControl_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_PTM_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_REB_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_RMF_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_RollerTestBench_detected 1 "True" 0 "false" ;
+VAL_ 18400021 Is_SLC_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_SSA_StandstillBrake_Applied 0 "False" 1 "True" ;
+VAL_ 18400021 Is_SWA_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_UnderSteerControl_Active 0 "False" 1 "True" ;
+VAL_ 18400021 Is_VDL_Active_CPC 0 "False" 1 "True" ;
+VAL_ 18400021 Is_ePedalStrongCoast_Applied 0 "False" 1 "True" ;
+VAL_ 18400021 p_ASR_InternalMode 0 "False" 1 "True" ;
+VAL_ 18400021 p_AYC_InternalMode 3 "Downgraded" 0 "False" 2 "OFF" 1 "ON" ;
+VAL_ 18400021 p_BCRMode 2 "ActiveMode" 0 "Failed" 1 "PassiveMode" 3 "RampUpMode" ;
+VAL_ 18400022 AEBS_Applicated_Request_VDC 6 " AEBS_BrakingAssist" 5 " AEBS_Gain_Ratio" 7 " AEBS_Prefill" 3 "AEBS_City" 4 "AEBS_Maximum" 1 "AEBS_Moderate" 2 "AEBS_Strong" 0 "No_Application" ;
+VAL_ 18400022 AEBS_Gain_status_VDC 2 " Applied" 0 "Failure" 1 "Not Applied" ;
+VAL_ 18400022 GCC_Brake_Application_Status 2 " Applied" 0 "Failure" 1 "Not Applied" ;
+VAL_ 18400022 GCC_Yaw_Application_Status 2 " Applied" 0 "Failure" 1 "Not Applied" ;
+VAL_ 18400022 HBA_Threshold_Decreased 1 "HBA_Threshold_Decreased" 0 "HBA_Threshold_Standard" ;
+VAL_ 18400022 VDC_Standstill_Internal_Status 2 " Standstill_Autohold" 0 "Failed" 5 "FastRelease" 1 "NotHold" 4 "ProgressiveRelease" 3 "Standstill_ADAS" ;
+VAL_ 18400022 p_AEBS_Haptic_Initial_Speed 255 "Invalid" ;
+VAL_ 18400022 p_AEBS_HighDecel_Initial_Speed 255 "Invalid" ;
+VAL_ 965 FL_WSS_DiagNotComplete_2 0 "all diagnosis complete" 1 "all diagnosis not complete" ;
+VAL_ 965 FL_WSS_OpenFail_2 1 "open Malfunction" 0 "open Malfunction is not Detectio" ;
+VAL_ 965 FL_WSS_OutOfRangeFail_2 1 "Out of range Malfunction" 0 "Out of range Malfunction is not " ;
+VAL_ 965 FL_WSS_RationalityFail_2 1 "Rationality Malfunction" 0 "Rationality Malfunction is not D" ;
+VAL_ 965 FL_WSS_ShortToGroundFail_2 1 "Short to ground Malfunction" 0 "Short to ground Malfunction is n" ;
+VAL_ 965 FL_WSS_ShortToPowerFail_2 1 "Short to power Malfunction" 0 "Short to power Malfunction is no" ;
+VAL_ 965 FR_WSS_DiagNotComplete_2 0 "all diagnosis complete" 1 "all diagnosis not complete" ;
+VAL_ 965 FR_WSS_OpenFail_2 1 "open Malfunction" 0 "open Malfunction is not Detectio" ;
+VAL_ 965 FR_WSS_ShortToPowerFail_2 1 "Short to power Malfunction" 0 "Short to power Malfunction is no" ;
+VAL_ 965 FR_WSS_OutOfRangeFail_2 1 "Out of range Malfunction" 0 "Out of range Malfunction is not " ;
+VAL_ 965 FR_WSS_RationalityFail 1 "Rationality Malfunction" 0 "Rationality Malfunction is not D" ;
+VAL_ 965 FR_WSS_ShortToGroundFail_2 1 "Short to ground Malfunction" 0 "Short to ground Malfunction is n" ;
+VAL_ 965 LongiAccelDiagNotComplete_2 0 "all diagnosis complete" 1 "all diagnosis not complete" ;
+VAL_ 965 LongiAccelGroundShort_2 1 "Short to ground Malfunction" 0 "Short to ground Malfunction is n" ;
+VAL_ 965 LongiAccelOpenFail_2 1 "open Malfunction" 0 "open Malfunction is not Detectio" ;
+VAL_ 965 LongiAccelPowerShort_2 1 "Short to power Malfunction" 0 "Short to power Malfunction is no" ;
+VAL_ 965 LongitudinalAccelForECM_2 4095 "Unavailable" ;
+VAL_ 965 RL_WSS_DiagNotComplete 0 "all diagnosis complete" 1 "all diagnosis not complete" ;
+VAL_ 965 RL_WSS_OpenFail 1 "open Malfunction" 0 "open Malfunction is not Detectio" ;
+VAL_ 965 RL_WSS_OutOfRangeFail 1 "Out of range Malfunction" 0 "Out of range Malfunction is not " ;
+VAL_ 965 RL_WSS_RationalityFail 1 "Rationality Malfunction" 0 "Rationality Malfunction is not D" ;
+VAL_ 965 RL_WSS_ShortToGroundFail 1 "Short to ground Malfunction" 0 "Short to ground Malfunction is n" ;
+VAL_ 965 RL_WSS_ShortToPowerFail 1 "Short to power Malfunction" 0 "Short to power Malfunction is no" ;
+VAL_ 965 RR_WSS_DiagNotComplete 0 "all diagnosis complete" 1 "all diagnosis not complete" ;
+VAL_ 965 RR_WSS_OpenFail 1 "open Malfunction" 0 "open Malfunction is not Detectio" ;
+VAL_ 965 RR_WSS_OutOfRangeFail 1 "Out of range Malfunction" 0 "Out of range Malfunction is not " ;
+VAL_ 965 RR_WSS_RationalityFail 1 "Rationality Malfunction" 0 "Rationality Malfunction is not D" ;
+VAL_ 965 RR_WSS_ShortToGroundFail 1 "Short to ground Malfunction" 0 "Short to ground Malfunction is n" ;
+VAL_ 965 RR_WSS_ShortToPowerFail 1 "Short to power Malfunction" 0 "Short to power Malfunction is no" ;
+VAL_ 182 AEB_BrakingPerformanceStatus_RD2 0 "Braking fully operational" 1 "Impossible to execute request" 2 "Not used" 3 "Unavailable" ;
+VAL_ 182 BrakePedalPressedByDriver_RD2 1 "Brake Pedal Not Pressed" 2 "Brake Pedal Pressed" 0 "Not used" 3 "Unavailable" ;
+VAL_ 182 BrakingPressure_RD2 255 "Unavailable" ;
+VAL_ 182 DriverTargetYawRate_RD2 1023 "Unavailable" ;
+VAL_ 182 GradientYawRate_RD2 1023 "Unavailable" ;
+VAL_ 182 LongitudinalControlStatus_VDC_RD 0 "Impossible to execute Longtudina" 1 "Longtudinal Braking Fully Operat" ;
+VAL_ 182 SteerRackPinionAngleCorrect_RD2 32767 "Unavailable" ;
+VAL_ 182 YawRateRaw_RD2 2047 "Unavailable" ;
+VAL_ 707 ABSMalfunction_RD2 1 "ABS malfunction" 0 "No ABS malfunction" ;
+VAL_ 707 ABSinRegulation_RD2 1 "ABS in regulation" 0 "no ABS regulation" ;
+VAL_ 707 ASRMalfunction_RD2 1 "ASR malfunction" 0 "No ASR malfunction" ;
+VAL_ 707 ASRinRegulation_RD2 1 "ASR in regulation" 0 "ASR not in regulation" ;
+VAL_ 707 AYCinRegulation_RD2 1 "AYC in regulation" 0 "AYC not in regulation" ;
+VAL_ 707 ESCMalfunction_RD2 0 "No VDC (ESC) malfunction" 1 "VDC (ESC) malfunction" ;
+VAL_ 707 MSRinRegulation_RD2 1 "MSR in regulation" 0 "no MSR regulation" ;
+VAL_ 707 ParkingBrakeBindingStatus_RD2_2 2 "Not used" 0 "brake released" 1 "brake tightened" 3 "unavailable" ;
+VAL_ 707 ParkingBrakeMalfunctionStatus_RD 0 "No Parking Brake Malfunction" 1 "Parking Brake Malfunction" ;
+VAL_ 707 ParkingBrakeRequestInProgres_RD2 2 "APB release request in progress" 1 "APB tighten request in progress" 0 "No APB request in progress" 3 "Unavailable" ;
+VAL_ 707 TSFinRegulation_RD2 1 "No TSA regulation" ;
+VAL_ 707 VehicleSpeedBody_RD2 32767 "Unavailable" ;
+VAL_ 707 VehicleSpeed_RD2 65535 "Unavailable" ;
+VAL_ 707 WheelDirectionRL_RD2 0 "No movement detected yet" 3 "Unavailable" 1 "Wheel Front Direction" 2 "Wheel Rear Direction" ;
+VAL_ 707 WheelDirectionRR_RD2 0 "No movement detected yet" 3 "Unavailable" 1 "Wheel Front Direction" 2 "Wheel Rear Direction" ;
+VAL_ 707 WheelSpeedFL_RD2 65535 "Unavailable" ;
+VAL_ 707 WheelSpeedFR_RD2 65535 "Unavailable" ;
+VAL_ 707 WheelSpeedRL_RD2 65535 "Unavailable" ;
+VAL_ 707 WheelSpeedRR_RD2 65535 "Unavailable" ;
+VAL_ 1366 FL_WSS_OpenFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FL_WSS_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FL_WSS_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FL_WSS_RationalityFail_V2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FL_WSS_ShortToGroundFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FL_WSS_ShortToPowerFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FR_WSS_OpenFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FR_WSS_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FR_WSS_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FR_WSS_RationalityFail_V2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FR_WSS_ShortToGroundFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 FR_WSS_ShortToPowerFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Lateral_OpenFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Lateral_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Lateral_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Lateral_RationalityFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Lateral_ShortToGroundFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Lateral_ShortToPowerFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Longitudinal_OpenFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Longitudinal_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Longitudinal_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Longitudinal_RationalityFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Longitudinal_ShortToGroundFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 Longitudinal_ShortToPowerFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 SWA_ShortToGroundFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 SWA_ShortToPowerFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 YawRate_OpenFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 YawRate_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 YawRate_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 YawRate_RationalityFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 YawRate_ShortToGroundFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1366 YawRate_ShortToPowerFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RL_WSS_OpenFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RL_WSS_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RL_WSS_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RL_WSS_RationalityFail_V2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RL_WSS_ShortToGroundFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RL_WSS_ShortToPowerFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RR_WSS_OpenFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RR_WSS_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RR_WSS_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RR_WSS_RationalityFail_V2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RR_WSS_ShortToGroundFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 RR_WSS_ShortToPowerFail_v2 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 SWA_OpenFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 SWA_OutOfRangeFail_High 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 SWA_OutOfRangeFail_Low 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 SWA_RationalityFail 0 "Not tested" 3 "Unavailable" 2 "tested NOK" 1 "tested OK" ;
+VAL_ 1382 VDC_CVN 0 "Unavailable" ;
+VAL_ 1393 VDC_CalID2 0 "Unavailable" ;
+VAL_ 1401 VDC_CalID1 0 "Unavailable" ;
+VAL_ 547 ARPinRegulation 1 "ARP in Regulation" 0 "No ARP regulation" ;
+VAL_ 547 DriverDecelerationByBrake 255 "Unavailable" ;
+VAL_ 547 ESCDecelerationTarget 255 "Unavailable" ;
+VAL_ 547 E_LSD_TorqueRequest 255 "Unavailable" ;
+VAL_ 547 EmergencyBrakeAssistStatus 1 "EBA active" 2 "EBA not active" 3 "Not Used" 0 "Unavailable" ;
+VAL_ 547 RequestedTransferedTorque_v2 4095 "UNavailable" ;
+VAL_ 547 VDC_4WDRequestMode 3 "Exact request" 2 "Maximum request" 1 "Minimum request" 0 "No request" ;
+VAL_ 548 BrakeWheelTorqueEstimation_2 65535 "Unavailable" ;
+VAL_ 548 DynamicBrakingAvailability_2 65535 "Unavailable" 0 "dynamic braking in progress" ;
+VAL_ 548 DynamicBrakingProgressForEPB_2 0 "EPB dynamic braking in progress" 1 "EPB dynamic braking not in progr" ;
+VAL_ 548 Forced_2WD_mode 1 "2WD forced request" 0 "No 2WD request" ;
+VAL_ 548 MinWheelTorqueForRelease_2 65535 "Unavailable" ;
+VAL_ 548 RequestedTransferedTorque 65535 "Unavailable" ;
+VAL_ 1109 ABSstateDisplayRequest_2 1 "Failure" 2 "In ext diag session" 0 "No failure" 3 "To be calibrated" ;
+VAL_ 1109 AccurateOdometer 31 "Unavailable" ;
+VAL_ 1109 BrakeVacuumStatus_2 0 "Sensor or Sensorless Strategy Un" 3 "Unavailable" 1 "Vacuum level above minimum level" 2 "Vacuum level below minimum level" ;
+VAL_ 1109 BrakingSystemStateDisplayRequest 1 "Failure" 0 "No failure" ;
+VAL_ 1109 CRBSfailureDisplayAlert 1 "Failure" 0 "No Failure" ;
+VAL_ 1109 DynamicBrakingInProgressForEPB_v 0 "EPB dynamic braking in progress" 1 "EPB dynamic braking not in progr" ;
+VAL_ 1109 EBAfailureDisplayAlert 1 "Failure" 0 "No Failure" ;
+VAL_ 1109 EBDstateDisplayRequest_2 1 "Failure" 0 "No Failure" ;
+VAL_ 1109 HBBMalfunction 1 "HBB Malfunction detected" 0 "HBB Malfunction not detected" ;
+VAL_ 1109 HDC_Status 0 "HDC OFF" 1 "HDC StandBy" 2 "HDC in control" 3 "Not Used" ;
+VAL_ 1109 HDC_StatusDisplay 1 "HDC Activated" 3 "HDC Failure" 0 "HDC Not activated" 2 "HDC in Control" ;
+VAL_ 1109 HSA_ActivationState_2 2 "HSA  activated" 1 "HSA  not activated" 0 "Unavailable" 3 "not Used" ;
+VAL_ 1109 HSA_StatusDisplay 3 "Activated" 0 "No display" 1 "Not activated" 2 "Ready" ;
+VAL_ 1109 HSAstateDisplayRequest 1 "Failure" 0 "No failure" ;
+VAL_ 1109 LowPWTregenBrakeTorqueRequest 0 "Regen brake limitation not reque" 1 "Regen brake limitation requested" ;
+VAL_ 1109 LowVacPWT_RestartImpossibleAlert 0 "Engine restart impossible alert " 1 "Engine restart impossible alert " ;
+VAL_ 1109 MCB_FailureDisplay 1 "display" 0 "no display" ;
+VAL_ 1109 Maintenance_Mode_Status_VDC_2 1 "In regulation" 0 "No regulation (default)" 1 "Prohibited" 0 "Prohibited temporaly" ;
+VAL_ 1109 SSA_EngineStopAutoForbidden 1 "Auto stop authorized" 2 "Auto stop forbidden" 0 "No request" 3 "Not used" ;
+VAL_ 1109 TPW_AcknowledgeResetDriver 0 "Reset ack" 1 "Reset fail " 1 "TPW not activ " 0 "Waiting" ;
+VAL_ 1109 TPW_HighSensitivityStatus 1 "TPW High sensitivity active" 0 "TPW High sensitivity not active " ;
+VAL_ 1109 TPW_Status 0 "Failure" 0 "System OK" 1 "TPW not operational" 1 "Tyre under inflated" ;
+VAL_ 1109 TPW_TireCheckReminder 0 "No tire check reminder" 1 "Tire check reminder" ;
+VAL_ 1109 VDC_Deactivated_v2 0 "VDC available" 1 "VDC disable" ;
+VAL_ 1109 VDC_MILlamp 0 "MIL lamp display not requested" 1 "MIL lamp display requested" ;
+VAL_ 1109 VDC_ShiftMapChangeRequest 0 "No request" 1 "Not used" 0 "Request to use TCS map in cold" 1 "Request to use TCS map in warm" ;
+VAL_ 1109 VDCactivationState 0 "VDC function activated" 1 "VDC function deactivated" ;
+VAL_ 1109 VDCdeactivationDisplayRequest 0 "No request" 1 "VDC deactivated display request" ;
+VAL_ 1109 VDCstateDisplayRequest_2 1 "Failure" 2 "In active control" 0 "No failure and no control" 3 "Not used" ;
+VAL_ 1109 VehicleSpeedSign_2 2 "Negative vehicle speed (= revers" 1 "Positive vehicle speed (= Forwar" 3 "Unavailable" 0 "nul vehicle speed" ;
+VAL_ 1081 DiffLockSwitching_VDC 0 "Diff lock switching OFF" 1 "Diff lock switching ON" ;
+VAL_ 1081 HDC_ActivationRefusedDisplay 1 "HDC_ActivationRefused displayed" 0 "HDC_ActivationRefused not displa" ;
+VAL_ 1081 HDC_status_information 1 "HDC Activated" 3 "HDC Failure" 0 "HDC Not activated" 2 "HDC in control" ;
+VAL_ 1081 SSA_NotImmobilizedVehicleWarning 0 "No warning Vehicle not immobiliz" 1 "Warning Vehicle not immobilized " ;
+VAL_ 1081 SSA_StateLamp_byVDC 0 "No display and No LED" 3 "SSA Lamp ON (HOLD) and LED" 1 "SSA Lamp STANDBY and LED" ;
+VAL_ 1081 SideWindAssistActivationDispReq 1 "Display Side Wind Assist" 0 "No display" ;
+VAL_ 1081 TCS_DeactivationState 1 "TCS deactivated" 0 "TCS not deactivated" ;
+VAL_ 1081 TCS_DeactivationStateToMETER 0 "No display" 3 "TCS ASR deactivated no text mess" 1 "TCS ASR is activated text on and" 2 "TCS ASR is deactivated text on a" ;
+VAL_ 1081 VDC_Deactivated 0 "VDC_available_" 1 "VDC_disable" ;
+VAL_ 550 ABSMalfunction_2 1 "ABS malfunction" 0 "no ABS malfunction" ;
+VAL_ 550 ABSinRegulation_2 1 "ABS in regulation" 0 "no ABS regulation" ;
+VAL_ 550 AD_StandStillStatus_byVDC 3 "Not used" 1 "Vehicle hold" 2 "Vehicle hold not possible" 0 "Vehicle not hold" ;
+VAL_ 550 ASRMalfunction_2 1 "ASR malfunction" 0 "No ASR malfunction" ;
+VAL_ 550 ASRinRegulation_2 1 "ASR in regulation" 0 "no ASR regulation" ;
+VAL_ 550 AYCMalfunction_2 1 "AYC malfunction" 0 "no AYC malfunction" ;
+VAL_ 550 AYCinRegulation_2 1 "AYC in regulation" 0 "no AYC regulation" ;
+VAL_ 550 AYCvehicleStabilityMargin 15 "unavailable" ;
+VAL_ 550 Braking_StopAutoForbidden_2 3 "Not used" 2 "Stop Auto authorized" 1 "Stop Auto forbidden" 0 "StopAuto forbidden - Braking mal" ;
+VAL_ 550 EBD_Active_2 1 "EBD active" 0 "EBD not active" ;
+VAL_ 550 ESCMalfunction 0 "No VDC (ESC) malfunction" 1 "VDC (ESC) malfunction" ;
+VAL_ 550 ESP_StopLampRequest_2 0 "Reserved" 3 "Stop lamps cancel request" 1 "Stop lamps off request" 2 "Stop lamps on request" ;
+VAL_ 550 MSRinRegulation_2 1 "MSR in regulation" 0 "no MSR regulation" ;
+VAL_ 550 ShiftingAuthorization 0 "gear shift forbidden" 1 "shift down authorized" 2 "shift up authorized" 3 "shift up or down authorized" ;
+VAL_ 550 StopLampFlashingRequest_2 0 "Stop lamps flashing no requested" 1 "Stop lamps flashing requested" ;
+VAL_ 550 TSFinRegulation 0 "No TSF regulation" 1 "TSF in regulation" ;
+VAL_ 550 VDC_StandStillStatus_2 3 "Not used" 1 "Vehicle hold" 2 "Vehicle hold not possible" 0 "Vehicle not hold" ;
+VAL_ 550 VDC_StandStillSupposed 2 "Moving" 3 "Not used" 1 "StandStill" 0 "Unavailable" ;
+VAL_ 550 VehicleSpeed_2 65535 "Unavailable" ;
+VAL_ 550 WheelDirectionFL 0 "No movement detected yet" 3 "Unavailable" 1 "Wheel Front Direction" 2 "Wheel Rear Direction" ;
+VAL_ 550 WheelDirectionFR 0 "No movement detected yet" 3 "Unavailable" 1 "Wheel Front Direction" 2 "Wheel Rear Direction" ;
+VAL_ 550 WheelDirectionRL 0 "No movement detected yet" 3 "Unavailable" 1 "Wheel Front Direction" 2 "Wheel Rear Direction" ;
+VAL_ 550 WheelDirectionRR 0 "No movement detected yet" 3 "Unavailable" 1 "Wheel Front Direction" 2 "Wheel Rear Direction" ;
+VAL_ 550 WheelSpeedFL 65535 "Unavailable" ;
+VAL_ 550 WheelSpeedFR 65535 "Unavailable" ;
+VAL_ 550 WheelSpeedRL 65535 "Unavailable" ;
+VAL_ 550 WheelSpeedRR 65535 "Unavailable" ;
+VAL_ 550 WheelTopFL 127 "Unavailable" ;
+VAL_ 550 WheelTopFR 127 "Unavailable" ;
+VAL_ 550 WheelTopRL 127 "unavailable" ;
+VAL_ 550 WheelTopRR 127 "unavailable" ;
+VAL_ 427 AEB_BrakingPerformanceStatus_2 0 "Braking fully operational" 1 "Impossible to execute request" 2 "Not used" 3 "Unavailable" ;
+VAL_ 427 BrakePedalPressedByDriver 1 "Brake Pedal Not Pressed" 2 "Brake Pedal Pressed" 0 "Not used" 3 "Unavailable" ;
+VAL_ 427 BrakingPressure_2 255 "unavailable" ;
+VAL_ 427 Braking_ClutchRequest 1 "Clutch change authorized" 0 "Clutch change forbidden" 2 "Clutch open requested" 3 "Not used" ;
+VAL_ 427 DriverBrakingPressure_v2 1023 "Not used" ;
+VAL_ 427 DriverTargetYawRate 8191 "unavailable" ;
+VAL_ 427 ExternalBrakeRequestStatus_2 2 "EBR Max Performance" 0 "EBR Off" 1 "EBR Volume Request Activation" 3 "Unavailable" ;
+VAL_ 427 ExternalBrakeValueRequest_2 65535 "UNavailable" ;
+VAL_ 427 GlobalBrakingPerformanceStatus 1 "Braking Fully Operational" 0 "Impossible to execute request" ;
+VAL_ 427 GradientYawRate 511 "Unavailable" ;
+VAL_ 427 LateralControlStatus_2 0 "Impossible to execute Lateral re" 1 "Lateral Braking Fully Operationa" ;
+VAL_ 427 LongitudinalAccelCorrected_2 4095 "Unavailable" ;
+VAL_ 427 LongitudinalAccelRaw_2 4095 "Unavailable" ;
+VAL_ 427 LongitudinalControlStatus_2 0 "Impossible to execute Longtudina" 1 "Longtudinal Braking Fully Operat" ;
+VAL_ 427 LongitudinalControlStatus_VDC 0 "Impossible to execute Longtudina" 1 "Longtudinal Braking Fully Operat" ;
+VAL_ 427 MastervacPressure_v2 127 "Unavailable" ;
+VAL_ 427 PedalFeelActuationStatus 2 "Active pedal feel compensation" 1 "Hold pedal feel compensation" 0 "Inactive pedal feel compensation" 3 "Unavailable" ;
+VAL_ 427 SteerRackPinionAngleCorrect_2 32767 "Not used" ;
+VAL_ 427 TargetPressurePedalFeel 1023 "unavailable" ;
+VAL_ 427 TransversalAccelCorrected_2 4095 "Unavailable" ;
+VAL_ 427 TransversalAccelRaw 4095 "Unavailable" ;
+VAL_ 427 VDC_VirtualPressure 1023 "unavailable" ;
+VAL_ 427 YawRateCorrected_2 2047 "unavailable" ;
+VAL_ 427 YawRateRaw 2047 "unavailable" ;
+VAL_ 431 ABSinRegulation_CRBS 1 "ABS_in_regulation" 0 "no_ABS_regulation" ;
+VAL_ 431 EBA_MotorLimitationRequest 1 "Active" 0 "Not Active" ;
+VAL_ 431 EBA_SmoothStartRequest 0 "no request" 1 "speed limitation request" ;
+VAL_ 431 RegenBrakeInRegulation 0 "Not_used" 2 "Regen_brk_control_in_regulation" 1 "Regen_brk_control_not_in_regul" 3 "Unavailable" ;
+VAL_ 431 RegenBrakeMalfunction_VDC 1 "Failure_detected" 0 "No_failure" ;
+VAL_ 165 Rr_RegenBrakeInRegulation 2 "Not_used" 1 "Regen_brk_control_in_regulation" 0 "Regen_brk_control_not_in_regul" 3 "Unavailable" ;
+VAL_ 330 RSA_AccelStartAssistinhibit 0 "Not inhibit" 1 "RSA/ASA inhibit" ;
+VAL_ 330 Rr_ASR_WheelTorqueRequest 32767 "Unavailable" ;
+VAL_ 330 Rr_ESC_TorqueControlType 1 "ASR torque request Decrease torq" 2 "MSR torque request Increase torq" 0 "No torque request" 3 "Not used" ;
+VAL_ 330 Rr_MSR_WheelTorqueRequest 32767 "Unavailable" ;
+VAL_ 330 TargetBrakingWheelTorque 32767 "Unavailable" ;
+VAL_ 100 Fr_BrakeWheelTorque 8191 "Unavailable" ;
+VAL_ 100 Rr_BrakeWheelTorque 8191 "Unavailable" ;
+VAL_ 100 TargetBrakingForce 1023 "Unavailable" ;
+VAL_ 995 SlopeEstimation_RD2 255 "unavailable" ;
+VAL_ 354 PathChangeRequest2 0 "No Request" 1 "Request" ;
+VAL_ 685 ABSinRegulation_RD 1 "ABS in regulation" 0 "no ABS regulation" ;
+VAL_ 685 LongitudinalAccelCorrected_RD 4095 "Unvailable" ;
+VAL_ 687 SteerRackPinionAngleCorrect_RD 32767 "Unvailable" ;
+VAL_ 1414 BrakeMapChangeRequest 1 "No Request" 0 "Not Used" 6 "Not used" 2 "Request" 7 "Unvailable" 4 "Uot used" ;
+VAL_ 1274 SSA_SteepSlopeWarning_Req_VDC 0 "No Request " 3 "Not used " 1 "Steep Slope Warning Request 1 " 2 "Steep Slope Warning Request 2 " ;
+VAL_ 1274 SSA_SwitchReleaseDispReq_byVDC 3 "unavailable" ;
+VAL_ 374 LongitudinalControlActuatorMode 0 "Not used" 1 "Primary" 2 "Secondary" 3 "Unavailable" ;
+VAL_ 374 LongitudinalControlForce_VDC 8191 "Unavailable" ;
+VAL_ 374 LongitudinalControlGradientOrder 2 "Comfort Low" 4 "Comfort Max" 3 "Comfort Medium" 0 "Dynamic" 6 "Not used" 1 "Standard" 7 "Unavailable" ;
+VAL_ 374 ModulationPressureRequest 511 "Unavailable" ;
+VAL_ 374 ReductionPressureInfo 1 "Normal" 0 "Not Initialized" 2 "Not used" 3 "Unavailable" ;
+VAL_ 374 ReductionPressureRequest 255 "Unavailable" ;
+VAL_ 374 SuctionSupportOrder 1 "Active" 0 "Not active" ;
+VAL_ 163 ASRDynamicWheelTorqueRequest_v2_ 32767 "unavailable " ;
+VAL_ 163 ASRStaticWheelTorqueRequest_v2_2 32767 "unavailable " ;
+VAL_ 163 ESC_TorqueControlType_2 5 " ASR torque request (decrease to" 6 "MSR torque request (increase tor" 7 "Reserved" 0 "no torque request" ;
+VAL_ 163 IdleStopBrakeHoldFunctionStandby 1 "IS brake hold not permit" 0 "IS brake hold permit " ;
+VAL_ 163 MSRWheelTorqueRequest_v2_2 32767 "unavailable " ;
+VAL_ 650 VehicleSpeed 65535 "Unvailable" ;
+VAL_ 1291 BrakeActiveDisplayReqFL 0 "No request " 1 "Request " ;
+VAL_ 1291 BrakeActiveDisplayReqFR 0 "No request " 1 "Request " ;
+VAL_ 1291 BrakeActiveDisplayReqRL 0 "No request " 1 "Request " ;
+VAL_ 1291 BrakeActiveDisplayReqRR 0 "No request " 1 "Request " ;
+VAL_ 1291 BrakeHighTempDisplayRequest 0 "No request " 3 "Not used " 2 "VDC high temp display " 1 "VDC pre high temp display " ;
+VAL_ 704 PitchAngleForDisplay 127 "Unavailable " ;
+VAL_ 704 RollAngleForDisplay 127 "Unavailable " ;
+VAL_ 704 SlipStatus_FL 0 "Not Slip " 1 "Slip " ;
+VAL_ 704 SlipStatus_FR 0 "Not Slip " 1 "Slip " ;
+VAL_ 704 SlipStatus_RL 0 "Not Slip " 1 "Slip " ;
+VAL_ 704 SlipStatus_RR 0 "Not Slip " 1 "Slip " ;
+VAL_ 723 Rr_L_ASR_MSR_WTqReq 32767 "Unavailable" ;
+VAL_ 723 Rr_L_ESC_TorqueControlType 1 "ASR torque request(decrease torq" 1 "MSR torque request (incease torq" 0 "No torque request" 1 "Not used" ;
+VAL_ 723 Rr_R_ASR_MSR_WTqReq 32767 "Unavailable" ;
+VAL_ 723 Rr_R_ESC_TorqueControlType 1 "ASR torque request(decrease torq" 1 "MSR torque request (incease torq" 0 "No torque request" 1 "Not used" ;
+VAL_ 699 DriverBrakingPressure_MMI 1023 "Unavailable" ;
+VAL_ 699 LeftDrivenWheelSlip_MMI 31 "Unavailable" ;
+VAL_ 699 RightDrivenWheelSlip_MMI 31 "Unavailable" ;
+VAL_ 699 Rr_LeftDrivenWheelSlip_MMI 3 "Not used" 31 "Unavailable" 2 "close to Vacuum pump durability " 0 "no display request" ;
+VAL_ 699 Rr_RightDrivenWheelSlip_MMI 3 "Not used" 31 "Unavailable" 2 "close to Vacuum pump durability " 0 "no display request" ;
+VAL_ 699 VaccumPumpDurabilityLimitAlert 3 "Not used" 2 "close to Vacuum pump durability " 0 "no display request" ;
+VAL_ 1183 ElecVacPumpCounterMemorized 4194303 "Unavailable" ;
+VAL_ 1634 FrontLeftBrakeTemperature 255 "unavailable " ;
+VAL_ 1634 FrontRightBrakeTemperature 255 "unavailable " ;
+VAL_ 1634 LateralTilt_MMI 127 "unavailable " ;
+VAL_ 1634 LongitudinalTilt_MMI 127 "unavailable " ;
+VAL_ 1634 RearLeftBrakeTemperature 255 "unavailable " ;
+VAL_ 1634 RearRightBrakeTemperature 255 "unavailable " ;
+VAL_ 1173 LongitudinalTilt_2 63 "unavailable " ;
+VAL_ 1173 SlopeEstimation_v3 127 "unavailable " ;
+VAL_ 1173 TPW_WheelStateFL 0 "Pressure OK  " 1 "Underinflation" ;
+VAL_ 1173 TPW_WheelStateFR 0 "Pressure OK  " 1 "Underinflation" ;
+VAL_ 1173 TPW_WheelStateRL 0 "Pressure OK  " 1 "Underinflation" ;
+VAL_ 1173 TPW_WheelStateRR 0 "Pressure OK  " 1 "Underinflation" ;
+
