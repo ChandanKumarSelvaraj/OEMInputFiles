@@ -1,4 +1,4 @@
-VERSION ""
+VERSION "Test1"
 
 
 NS_ : 
@@ -1034,7 +1034,7 @@ BO_ 1634 VDC_R14_FD_CH2: 6 VDC
 
 BO_ 1173 VDC_R15_FD_CH2: 4 VDC
  SG_ LongitudinalTilt_2 : 23|6@0+ (1,-20) [-20|20] "%" Vector__XXX
- SG_ SlopeEstimation_v3 : 39|7@0+ (1,-36) [-36|36] "°" Vector__XXX
+ SG_ SlopeEstimation_v3 : 39|7@0+ (1,-36) [-36|36] "Â°" Vector__XXX
  SG_ TPW_WheelStateFL : 28|1@0+ (1,1) [0|1] "" Vector__XXX
  SG_ TPW_WheelStateFR : 27|1@0+ (1,1) [1|2] "" Vector__XXX
  SG_ TPW_WheelStateRL : 26|1@0+ (1,1) [1|2] "" Vector__XXX
